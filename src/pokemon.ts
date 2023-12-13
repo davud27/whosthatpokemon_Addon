@@ -45,6 +45,7 @@ export const POKEMON_NAMES = [{
     zh: "妙蛙种子",
   },
   number: 1,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "bisaknosp",
@@ -54,6 +55,7 @@ export const POKEMON_NAMES = [{
     zh: "妙蛙草",
   },
   number: 2,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "bisaflor",
@@ -63,6 +65,7 @@ export const POKEMON_NAMES = [{
     zh: "妙蛙花",
   },
   number: 3,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "glumanda",
@@ -72,6 +75,7 @@ export const POKEMON_NAMES = [{
     zh: "小火龙",
   },
   number: 4,
+  pokemonTypes: ["fire"],
 },{
   names: {
     de: "glutexo",
@@ -81,6 +85,7 @@ export const POKEMON_NAMES = [{
     zh: "火恐龙",
   },
   number: 5,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "glurak",
@@ -90,6 +95,7 @@ export const POKEMON_NAMES = [{
     zh: "喷火龙",
   },
   number: 6,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "schiggy",
@@ -99,6 +105,7 @@ export const POKEMON_NAMES = [{
     zh: "杰尼龟",
   },
   number: 7,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "schillok",
@@ -108,6 +115,7 @@ export const POKEMON_NAMES = [{
     zh: "卡咪龟",
   },
   number: 8,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "turtok",
@@ -117,6 +125,7 @@ export const POKEMON_NAMES = [{
     zh: "水箭龟",
   },
   number: 9,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "raupy",
@@ -126,6 +135,7 @@ export const POKEMON_NAMES = [{
     zh: "绿毛虫",
   },
   number: 10,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "safcon",
@@ -135,6 +145,7 @@ export const POKEMON_NAMES = [{
     zh: "铁甲蛹",
   },
   number: 11,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "smettbo",
@@ -144,6 +155,7 @@ export const POKEMON_NAMES = [{
     zh: "巴大蝶",
   },
   number: 12,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "hornliu",
@@ -153,6 +165,7 @@ export const POKEMON_NAMES = [{
     zh: "独角虫",
   },
   number: 13,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "kokuna",
@@ -162,6 +175,7 @@ export const POKEMON_NAMES = [{
     zh: "铁壳蛹",
   },
   number: 14,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "bibor",
@@ -171,6 +185,7 @@ export const POKEMON_NAMES = [{
     zh: "大针蜂",
   },
   number: 15,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "taubsi",
@@ -180,6 +195,7 @@ export const POKEMON_NAMES = [{
     zh: "波波",
   },
   number: 16,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "tauboga",
@@ -189,6 +205,7 @@ export const POKEMON_NAMES = [{
     zh: "比比鸟",
   },
   number: 17,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "tauboss",
@@ -198,6 +215,7 @@ export const POKEMON_NAMES = [{
     zh: "大比鸟",
   },
   number: 18,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "rattfratz",
@@ -207,6 +225,7 @@ export const POKEMON_NAMES = [{
     zh: "小拉达",
   },
   number: 19,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "rattikarl",
@@ -216,6 +235,7 @@ export const POKEMON_NAMES = [{
     zh: "拉达",
   },
   number: 20,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "habitak",
@@ -225,6 +245,7 @@ export const POKEMON_NAMES = [{
     zh: "烈雀",
   },
   number: 21,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "ibitak",
@@ -234,6 +255,7 @@ export const POKEMON_NAMES = [{
     zh: "大嘴雀",
   },
   number: 22,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "rettan",
@@ -243,6 +265,7 @@ export const POKEMON_NAMES = [{
     zh: "阿柏蛇",
   },
   number: 23,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "arbok",
@@ -252,6 +275,7 @@ export const POKEMON_NAMES = [{
     zh: "阿柏怪",
   },
   number: 24,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "pikachu",
@@ -261,6 +285,7 @@ export const POKEMON_NAMES = [{
     zh: "皮卡丘",
   },
   number: 25,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "raichu",
@@ -270,6 +295,7 @@ export const POKEMON_NAMES = [{
     zh: "雷丘",
   },
   number: 26,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "sandan",
@@ -279,6 +305,7 @@ export const POKEMON_NAMES = [{
     zh: "穿山鼠",
   },
   number: 27,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "sandamer",
@@ -288,6 +315,7 @@ export const POKEMON_NAMES = [{
     zh: "穿山王",
   },
   number: 28,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "nidoran",
@@ -297,6 +325,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多兰",
   },
   number: 29,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "nidorina",
@@ -306,6 +335,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多娜",
   },
   number: 30,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "nidoqueen",
@@ -315,6 +345,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多后",
   },
   number: 31,
+  pokemonTypes: ["poison", "ground"],
 },{
   names: {
     de: "nidoran",
@@ -324,6 +355,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多朗",
   },
   number: 32,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "nidorino",
@@ -333,6 +365,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多力诺",
   },
   number: 33,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "nidoking",
@@ -342,6 +375,7 @@ export const POKEMON_NAMES = [{
     zh: "尼多王",
   },
   number: 34,
+  pokemonTypes: ["poison", "ground"],
 },{
   names: {
     de: "piepi",
@@ -351,6 +385,7 @@ export const POKEMON_NAMES = [{
     zh: "皮皮",
   },
   number: 35,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "pixi",
@@ -360,6 +395,7 @@ export const POKEMON_NAMES = [{
     zh: "皮可西",
   },
   number: 36,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "vulpix",
@@ -369,6 +405,7 @@ export const POKEMON_NAMES = [{
     zh: "六尾",
   },
   number: 37,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "vulnona",
@@ -378,6 +415,7 @@ export const POKEMON_NAMES = [{
     zh: "九尾",
   },
   number: 38,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "pummeluff",
@@ -387,6 +425,7 @@ export const POKEMON_NAMES = [{
     zh: "胖丁",
   },
   number: 39,
+  pokemonTypes: ["normal", "fairy"],
 },{
   names: {
     de: "knuddeluff",
@@ -396,6 +435,7 @@ export const POKEMON_NAMES = [{
     zh: "胖可丁",
   },
   number: 40,
+  pokemonTypes: ["normal", "fairy"],
 },{
   names: {
     de: "zubat",
@@ -405,6 +445,7 @@ export const POKEMON_NAMES = [{
     zh: "超音蝠",
   },
   number: 41,
+  pokemonTypes: ["poison", "flying"],
 },{
   names: {
     de: "golbat",
@@ -414,6 +455,7 @@ export const POKEMON_NAMES = [{
     zh: "大嘴蝠",
   },
   number: 42,
+  pokemonTypes: ["poison", "flying"],
 },{
   names: {
     de: "myrapla",
@@ -423,6 +465,7 @@ export const POKEMON_NAMES = [{
     zh: "走路草",
   },
   number: 43,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "duflor",
@@ -432,6 +475,7 @@ export const POKEMON_NAMES = [{
     zh: "臭臭花",
   },
   number: 44,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "giflor",
@@ -441,6 +485,7 @@ export const POKEMON_NAMES = [{
     zh: "霸王花",
   },
   number: 45,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "paras",
@@ -450,6 +495,7 @@ export const POKEMON_NAMES = [{
     zh: "派拉斯",
   },
   number: 46,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "parasek",
@@ -459,6 +505,7 @@ export const POKEMON_NAMES = [{
     zh: "派拉斯特",
   },
   number: 47,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "bluzuk",
@@ -468,6 +515,7 @@ export const POKEMON_NAMES = [{
     zh: "毛球",
   },
   number: 48,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "omot",
@@ -477,6 +525,7 @@ export const POKEMON_NAMES = [{
     zh: "摩鲁蛾",
   },
   number: 49,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "digda",
@@ -486,6 +535,7 @@ export const POKEMON_NAMES = [{
     zh: "地鼠",
   },
   number: 50,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "digdri",
@@ -495,6 +545,7 @@ export const POKEMON_NAMES = [{
     zh: "三地鼠",
   },
   number: 51,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "mauzi",
@@ -504,6 +555,7 @@ export const POKEMON_NAMES = [{
     zh: "喵喵",
   },
   number: 52,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "snobilikat",
@@ -513,6 +565,7 @@ export const POKEMON_NAMES = [{
     zh: "猫老大",
   },
   number: 53,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "enton",
@@ -522,6 +575,7 @@ export const POKEMON_NAMES = [{
     zh: "可达鸭",
   },
   number: 54,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "entoron",
@@ -531,6 +585,7 @@ export const POKEMON_NAMES = [{
     zh: "哥达鸭",
   },
   number: 55,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "menki",
@@ -540,6 +595,7 @@ export const POKEMON_NAMES = [{
     zh: "猴怪",
   },
   number: 56,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "rasaff",
@@ -549,6 +605,7 @@ export const POKEMON_NAMES = [{
     zh: "火暴猴",
   },
   number: 57,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "fukano",
@@ -558,6 +615,7 @@ export const POKEMON_NAMES = [{
     zh: "卡蒂狗",
   },
   number: 58,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "arkani",
@@ -567,6 +625,7 @@ export const POKEMON_NAMES = [{
     zh: "风速狗",
   },
   number: 59,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "quapsel",
@@ -576,6 +635,7 @@ export const POKEMON_NAMES = [{
     zh: "蚊香蝌蚪",
   },
   number: 60,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "quaputzi",
@@ -585,6 +645,7 @@ export const POKEMON_NAMES = [{
     zh: "蚊香君",
   },
   number: 61,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "quappo",
@@ -594,6 +655,7 @@ export const POKEMON_NAMES = [{
     zh: "蚊香泳士",
   },
   number: 62,
+  pokemonTypes: ["water", "fighting"],
 },{
   names: {
     de: "abra",
@@ -603,6 +665,7 @@ export const POKEMON_NAMES = [{
     zh: "凯西",
   },
   number: 63,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "kadabra",
@@ -612,6 +675,7 @@ export const POKEMON_NAMES = [{
     zh: "勇基拉",
   },
   number: 64,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "simsala",
@@ -621,6 +685,7 @@ export const POKEMON_NAMES = [{
     zh: "胡地",
   },
   number: 65,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "machollo",
@@ -630,6 +695,7 @@ export const POKEMON_NAMES = [{
     zh: "腕力",
   },
   number: 66,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "maschock",
@@ -639,6 +705,7 @@ export const POKEMON_NAMES = [{
     zh: "豪力",
   },
   number: 67,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "machomei",
@@ -648,6 +715,7 @@ export const POKEMON_NAMES = [{
     zh: "怪力",
   },
   number: 68,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "knofensa",
@@ -657,6 +725,7 @@ export const POKEMON_NAMES = [{
     zh: "喇叭芽",
   },
   number: 69,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "ultrigaria",
@@ -666,6 +735,7 @@ export const POKEMON_NAMES = [{
     zh: "口呆花",
   },
   number: 70,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "sarzenia",
@@ -675,6 +745,7 @@ export const POKEMON_NAMES = [{
     zh: "大食花",
   },
   number: 71,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "tentacha",
@@ -684,6 +755,7 @@ export const POKEMON_NAMES = [{
     zh: "玛瑙水母",
   },
   number: 72,
+  pokemonTypes: ["water", "poison"],
 },{
   names: {
     de: "tentoxa",
@@ -693,6 +765,7 @@ export const POKEMON_NAMES = [{
     zh: "毒刺水母",
   },
   number: 73,
+  pokemonTypes: ["water", "poison"],
 },{
   names: {
     de: "kleinstein",
@@ -702,6 +775,7 @@ export const POKEMON_NAMES = [{
     zh: "小拳石",
   },
   number: 74,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "georok",
@@ -711,6 +785,7 @@ export const POKEMON_NAMES = [{
     zh: "隆隆石",
   },
   number: 75,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "geowaz",
@@ -720,6 +795,7 @@ export const POKEMON_NAMES = [{
     zh: "隆隆岩",
   },
   number: 76,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "ponita",
@@ -729,6 +805,7 @@ export const POKEMON_NAMES = [{
     zh: "小火马",
   },
   number: 77,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "gallopa",
@@ -738,6 +815,7 @@ export const POKEMON_NAMES = [{
     zh: "烈焰马",
   },
   number: 78,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "flegmon",
@@ -747,6 +825,7 @@ export const POKEMON_NAMES = [{
     zh: "呆呆兽",
   },
   number: 79,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "lahmus",
@@ -756,6 +835,7 @@ export const POKEMON_NAMES = [{
     zh: "呆壳兽",
   },
   number: 80,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "magnetilo",
@@ -765,6 +845,7 @@ export const POKEMON_NAMES = [{
     zh: "小磁怪",
   },
   number: 81,
+  pokemonTypes: ["electric", "steel"],
 },{
   names: {
     de: "magneton",
@@ -774,6 +855,7 @@ export const POKEMON_NAMES = [{
     zh: "三合一磁怪",
   },
   number: 82,
+  pokemonTypes: ["electric", "steel"],
 },{
   names: {
     de: "porenta",
@@ -783,6 +865,7 @@ export const POKEMON_NAMES = [{
     zh: "大葱鸭",
   },
   number: 83,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "dodu",
@@ -792,6 +875,7 @@ export const POKEMON_NAMES = [{
     zh: "嘟嘟",
   },
   number: 84,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "dodri",
@@ -801,6 +885,7 @@ export const POKEMON_NAMES = [{
     zh: "嘟嘟利",
   },
   number: 85,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "jurob",
@@ -810,6 +895,7 @@ export const POKEMON_NAMES = [{
     zh: "小海狮",
   },
   number: 86,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "jugong",
@@ -819,6 +905,7 @@ export const POKEMON_NAMES = [{
     zh: "白海狮",
   },
   number: 87,
+  pokemonTypes: ["water", "ice"],
 },{
   names: {
     de: "sleima",
@@ -828,6 +915,7 @@ export const POKEMON_NAMES = [{
     zh: "臭泥",
   },
   number: 88,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "sleimok",
@@ -837,6 +925,7 @@ export const POKEMON_NAMES = [{
     zh: "臭臭泥",
   },
   number: 89,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "muschas",
@@ -846,6 +935,7 @@ export const POKEMON_NAMES = [{
     zh: "大舌贝",
   },
   number: 90,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "austos",
@@ -855,6 +945,7 @@ export const POKEMON_NAMES = [{
     zh: "刺甲贝",
   },
   number: 91,
+  pokemonTypes: ["water", "ice"],
 },{
   names: {
     de: "nebulak",
@@ -864,6 +955,7 @@ export const POKEMON_NAMES = [{
     zh: "鬼斯",
   },
   number: 92,
+  pokemonTypes: ["ghost", "poison"],
 },{
   names: {
     de: "alpollo",
@@ -873,6 +965,7 @@ export const POKEMON_NAMES = [{
     zh: "鬼斯通",
   },
   number: 93,
+  pokemonTypes: ["ghost", "poison"],
 },{
   names: {
     de: "gengar",
@@ -882,6 +975,7 @@ export const POKEMON_NAMES = [{
     zh: "耿鬼",
   },
   number: 94,
+  pokemonTypes: ["ghost", "poison"],
 },{
   names: {
     de: "onix",
@@ -891,6 +985,7 @@ export const POKEMON_NAMES = [{
     zh: "大岩蛇",
   },
   number: 95,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "traumato",
@@ -900,6 +995,7 @@ export const POKEMON_NAMES = [{
     zh: "催眠貘",
   },
   number: 96,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "hypno",
@@ -909,6 +1005,7 @@ export const POKEMON_NAMES = [{
     zh: "引梦貘人",
   },
   number: 97,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "krabby",
@@ -918,6 +1015,7 @@ export const POKEMON_NAMES = [{
     zh: "大钳蟹",
   },
   number: 98,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "kingler",
@@ -927,6 +1025,7 @@ export const POKEMON_NAMES = [{
     zh: "巨钳蟹",
   },
   number: 99,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "voltobal",
@@ -936,6 +1035,7 @@ export const POKEMON_NAMES = [{
     zh: "霹雳电球",
   },
   number: 100,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "lektrobal",
@@ -945,6 +1045,7 @@ export const POKEMON_NAMES = [{
     zh: "顽皮雷弹",
   },
   number: 101,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "owei",
@@ -954,6 +1055,7 @@ export const POKEMON_NAMES = [{
     zh: "蛋蛋",
   },
   number: 102,
+  pokemonTypes: ["grass", "psychic"],
 },{
   names: {
     de: "kokowei",
@@ -963,6 +1065,7 @@ export const POKEMON_NAMES = [{
     zh: "椰蛋树",
   },
   number: 103,
+  pokemonTypes: ["grass", "psychic"],
 },{
   names: {
     de: "tragosso",
@@ -972,6 +1075,7 @@ export const POKEMON_NAMES = [{
     zh: "卡拉卡拉",
   },
   number: 104,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "knogga",
@@ -981,6 +1085,7 @@ export const POKEMON_NAMES = [{
     zh: "嘎啦嘎啦",
   },
   number: 105,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "kicklee",
@@ -990,6 +1095,7 @@ export const POKEMON_NAMES = [{
     zh: "飞腿郎",
   },
   number: 106,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "nockchan",
@@ -999,6 +1105,7 @@ export const POKEMON_NAMES = [{
     zh: "快拳郎",
   },
   number: 107,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "schlurp",
@@ -1008,6 +1115,7 @@ export const POKEMON_NAMES = [{
     zh: "大舌头",
   },
   number: 108,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "smogon",
@@ -1017,6 +1125,7 @@ export const POKEMON_NAMES = [{
     zh: "瓦斯弹",
   },
   number: 109,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "smogmog",
@@ -1026,6 +1135,7 @@ export const POKEMON_NAMES = [{
     zh: "双弹瓦斯",
   },
   number: 110,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "rihorn",
@@ -1035,6 +1145,7 @@ export const POKEMON_NAMES = [{
     zh: "独角犀牛",
   },
   number: 111,
+  pokemonTypes: ["ground", "rock"], 
 },{
   names: {
     de: "rizeros",
@@ -1044,6 +1155,7 @@ export const POKEMON_NAMES = [{
     zh: "钻角犀兽",
   },
   number: 112,
+  pokemonTypes: ["ground", "rock"],
 },{
   names: {
     de: "chaneira",
@@ -1053,6 +1165,7 @@ export const POKEMON_NAMES = [{
     zh: "吉利蛋",
   },
   number: 113,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "tangela",
@@ -1062,6 +1175,7 @@ export const POKEMON_NAMES = [{
     zh: "蔓藤怪",
   },
   number: 114,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "kangama",
@@ -1071,6 +1185,7 @@ export const POKEMON_NAMES = [{
     zh: "袋兽",
   },
   number: 115,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "seeper",
@@ -1080,6 +1195,7 @@ export const POKEMON_NAMES = [{
     zh: "墨海马",
   },
   number: 116,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "seemon",
@@ -1089,6 +1205,7 @@ export const POKEMON_NAMES = [{
     zh: "海刺龙",
   },
   number: 117,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "goldini",
@@ -1098,6 +1215,7 @@ export const POKEMON_NAMES = [{
     zh: "角金鱼",
   },
   number: 118,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "golking",
@@ -1107,6 +1225,7 @@ export const POKEMON_NAMES = [{
     zh: "金鱼王",
   },
   number: 119,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "sterndu",
@@ -1116,6 +1235,7 @@ export const POKEMON_NAMES = [{
     zh: "海星星",
   },
   number: 120,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "starmie",
@@ -1125,6 +1245,7 @@ export const POKEMON_NAMES = [{
     zh: "宝石海星",
   },
   number: 121,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "pantimos",
@@ -1134,6 +1255,7 @@ export const POKEMON_NAMES = [{
     zh: "魔墙人偶",
   },
   number: 122,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "sichlor",
@@ -1143,6 +1265,7 @@ export const POKEMON_NAMES = [{
     zh: "飞天螳螂",
   },
   number: 123,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "rossana",
@@ -1152,6 +1275,7 @@ export const POKEMON_NAMES = [{
     zh: "迷唇姐",
   },
   number: 124,
+  pokemonTypes: ["ice", "psychic"],
 },{
   names: {
     de: "elektek",
@@ -1161,6 +1285,7 @@ export const POKEMON_NAMES = [{
     zh: "电击兽",
   },
   number: 125,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "magmar",
@@ -1170,6 +1295,7 @@ export const POKEMON_NAMES = [{
     zh: "鸭嘴火兽",
   },
   number: 126,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "pinsir",
@@ -1179,6 +1305,7 @@ export const POKEMON_NAMES = [{
     zh: "凯罗斯",
   },
   number: 127,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "tauros",
@@ -1188,6 +1315,7 @@ export const POKEMON_NAMES = [{
     zh: "肯泰罗",
   },
   number: 128,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "karpador",
@@ -1197,6 +1325,7 @@ export const POKEMON_NAMES = [{
     zh: "鲤鱼王",
   },
   number: 129,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "garados",
@@ -1206,6 +1335,7 @@ export const POKEMON_NAMES = [{
     zh: "暴鲤龙",
   },
   number: 130,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "lapras",
@@ -1215,6 +1345,7 @@ export const POKEMON_NAMES = [{
     zh: "拉普拉斯",
   },
   number: 131,
+  pokemonTypes: ["water", "ice"],
 },{
   names: {
     de: "ditto",
@@ -1224,6 +1355,7 @@ export const POKEMON_NAMES = [{
     zh: "百变怪",
   },
   number: 132,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "evoli",
@@ -1233,6 +1365,7 @@ export const POKEMON_NAMES = [{
     zh: "伊布",
   },
   number: 133,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "aquana",
@@ -1242,6 +1375,7 @@ export const POKEMON_NAMES = [{
     zh: "水伊布",
   },
   number: 134,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "blitza",
@@ -1251,6 +1385,7 @@ export const POKEMON_NAMES = [{
     zh: "雷伊布",
   },
   number: 135,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "flamara",
@@ -1260,6 +1395,7 @@ export const POKEMON_NAMES = [{
     zh: "火伊布",
   },
   number: 136,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "porygon",
@@ -1269,6 +1405,7 @@ export const POKEMON_NAMES = [{
     zh: "多边兽",
   },
   number: 137,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "amonitas",
@@ -1278,6 +1415,7 @@ export const POKEMON_NAMES = [{
     zh: "菊石兽",
   },
   number: 138,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "amoroso",
@@ -1287,6 +1425,7 @@ export const POKEMON_NAMES = [{
     zh: "多刺菊石兽",
   },
   number: 139,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "kabuto",
@@ -1296,6 +1435,7 @@ export const POKEMON_NAMES = [{
     zh: "化石盔",
   },
   number: 140,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "kabutops",
@@ -1305,6 +1445,7 @@ export const POKEMON_NAMES = [{
     zh: "镰刀盔",
   },
   number: 141,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "aerodactyl",
@@ -1314,6 +1455,7 @@ export const POKEMON_NAMES = [{
     zh: "化石翼龙",
   },
   number: 142,
+  pokemonTypes: ["rock", "flying"],
 },{
   names: {
     de: "relaxo",
@@ -1323,6 +1465,7 @@ export const POKEMON_NAMES = [{
     zh: "卡比兽",
   },
   number: 143,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "arktos",
@@ -1332,6 +1475,7 @@ export const POKEMON_NAMES = [{
     zh: "急冻鸟",
   },
   number: 144,
+  pokemonTypes: ["ice", "flying"],
 },{
   names: {
     de: "zapdos",
@@ -1341,6 +1485,7 @@ export const POKEMON_NAMES = [{
     zh: "闪电鸟",
   },
   number: 145,
+  pokemonTypes: ["electric", "flying"],
 },{
   names: {
     de: "lavados",
@@ -1350,6 +1495,7 @@ export const POKEMON_NAMES = [{
     zh: "火焰鸟",
   },
   number: 146,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "dratini",
@@ -1359,6 +1505,7 @@ export const POKEMON_NAMES = [{
     zh: "迷你龙",
   },
   number: 147,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "dragonir",
@@ -1368,6 +1515,7 @@ export const POKEMON_NAMES = [{
     zh: "哈克龙",
   },
   number: 148,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "dragoran",
@@ -1377,6 +1525,7 @@ export const POKEMON_NAMES = [{
     zh: "快龙",
   },
   number: 149,
+  pokemonTypes: ["dragon", "flying"],
 },{
   names: {
     de: "mewtu",
@@ -1386,6 +1535,7 @@ export const POKEMON_NAMES = [{
     zh: "超梦",
   },
   number: 150,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "mew",
@@ -1395,6 +1545,7 @@ export const POKEMON_NAMES = [{
     zh: "梦幻",
   },
   number: 151,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "endivie",
@@ -1404,6 +1555,7 @@ export const POKEMON_NAMES = [{
     zh: "菊草叶",
   },
   number: 152,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "lorblatt",
@@ -1413,6 +1565,7 @@ export const POKEMON_NAMES = [{
     zh: "月桂叶",
   },
   number: 153,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "meganie",
@@ -1422,6 +1575,7 @@ export const POKEMON_NAMES = [{
     zh: "大竺葵",
   },
   number: 154,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "feurigel",
@@ -1431,6 +1585,7 @@ export const POKEMON_NAMES = [{
     zh: "火球鼠",
   },
   number: 155,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "igelavar",
@@ -1440,6 +1595,7 @@ export const POKEMON_NAMES = [{
     zh: "火岩鼠",
   },
   number: 156,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "tornupto",
@@ -1449,6 +1605,7 @@ export const POKEMON_NAMES = [{
     zh: "火暴兽",
   },
   number: 157,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "karnimani",
@@ -1458,6 +1615,7 @@ export const POKEMON_NAMES = [{
     zh: "小锯鳄",
   },
   number: 158,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "tyracroc",
@@ -1467,6 +1625,7 @@ export const POKEMON_NAMES = [{
     zh: "蓝鳄",
   },
   number: 159,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "impergator",
@@ -1476,6 +1635,7 @@ export const POKEMON_NAMES = [{
     zh: "大力鳄",
   },
   number: 160,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "wiesor",
@@ -1485,6 +1645,7 @@ export const POKEMON_NAMES = [{
     zh: "尾立",
   },
   number: 161,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "wiesenior",
@@ -1494,6 +1655,7 @@ export const POKEMON_NAMES = [{
     zh: "大尾立",
   },
   number: 162,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "hoothoot",
@@ -1503,6 +1665,7 @@ export const POKEMON_NAMES = [{
     zh: "咕咕",
   },
   number: 163,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "noctuh",
@@ -1512,6 +1675,7 @@ export const POKEMON_NAMES = [{
     zh: "猫头夜鹰",
   },
   number: 164,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "ledyba",
@@ -1521,6 +1685,7 @@ export const POKEMON_NAMES = [{
     zh: "芭瓢虫",
   },
   number: 165,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "ledian",
@@ -1530,6 +1695,7 @@ export const POKEMON_NAMES = [{
     zh: "安瓢虫",
   },
   number: 166,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "webarak",
@@ -1539,6 +1705,7 @@ export const POKEMON_NAMES = [{
     zh: "圆丝蛛",
   },
   number: 167,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "ariados",
@@ -1548,6 +1715,7 @@ export const POKEMON_NAMES = [{
     zh: "阿利多斯",
   },
   number: 168,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "iksbat",
@@ -1557,6 +1725,7 @@ export const POKEMON_NAMES = [{
     zh: "叉字蝠",
   },
   number: 169,
+  pokemonTypes: ["poison", "flying"],
 },{
   names: {
     de: "lampi",
@@ -1566,6 +1735,7 @@ export const POKEMON_NAMES = [{
     zh: "灯笼鱼",
   },
   number: 170,
+  pokemonTypes: ["water", "electric"],
 },{
   names: {
     de: "lanturn",
@@ -1575,6 +1745,7 @@ export const POKEMON_NAMES = [{
     zh: "电灯怪",
   },
   number: 171,
+  pokemonTypes: ["water", "electric"],
 },{
   names: {
     de: "pichu",
@@ -1584,6 +1755,7 @@ export const POKEMON_NAMES = [{
     zh: "皮丘",
   },
   number: 172,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "pii",
@@ -1593,6 +1765,7 @@ export const POKEMON_NAMES = [{
     zh: "皮宝宝",
   },
   number: 173,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "fluffeluff",
@@ -1602,6 +1775,7 @@ export const POKEMON_NAMES = [{
     zh: "宝宝丁",
   },
   number: 174,
+  pokemonTypes: ["normal", "fairy"],
 },{
   names: {
     de: "togepi",
@@ -1611,6 +1785,7 @@ export const POKEMON_NAMES = [{
     zh: "波克比",
   },
   number: 175,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "togetic",
@@ -1620,6 +1795,7 @@ export const POKEMON_NAMES = [{
     zh: "波克基古",
   },
   number: 176,
+  pokemonTypes: ["fairy", "flying"],
 },{
   names: {
     de: "natu",
@@ -1629,6 +1805,7 @@ export const POKEMON_NAMES = [{
     zh: "天然雀",
   },
   number: 177,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "xatu",
@@ -1638,6 +1815,7 @@ export const POKEMON_NAMES = [{
     zh: "天然鸟",
   },
   number: 178,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "voltilamm",
@@ -1647,6 +1825,7 @@ export const POKEMON_NAMES = [{
     zh: "咩利羊",
   },
   number: 179,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "waaty",
@@ -1656,6 +1835,7 @@ export const POKEMON_NAMES = [{
     zh: "茸茸羊",
   },
   number: 180,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "ampharos",
@@ -1665,6 +1845,7 @@ export const POKEMON_NAMES = [{
     zh: "电龙",
   },
   number: 181,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "blubella",
@@ -1674,6 +1855,7 @@ export const POKEMON_NAMES = [{
     zh: "美丽花",
   },
   number: 182,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "marill",
@@ -1683,6 +1865,7 @@ export const POKEMON_NAMES = [{
     zh: "玛力露",
   },
   number: 183,
+  pokemonTypes: ["water", "fairy"],
 },{
   names: {
     de: "azumarill",
@@ -1692,6 +1875,7 @@ export const POKEMON_NAMES = [{
     zh: "玛力露丽",
   },
   number: 184,
+  pokemonTypes: ["water", "fairy"],
 },{
   names: {
     de: "mogelbaum",
@@ -1701,6 +1885,7 @@ export const POKEMON_NAMES = [{
     zh: "树才怪",
   },
   number: 185,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "quaxo",
@@ -1710,6 +1895,7 @@ export const POKEMON_NAMES = [{
     zh: "蚊香蛙皇",
   },
   number: 186,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "hoppspross",
@@ -1719,6 +1905,7 @@ export const POKEMON_NAMES = [{
     zh: "毽子草",
   },
   number: 187,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "hubelupf",
@@ -1728,6 +1915,7 @@ export const POKEMON_NAMES = [{
     zh: "毽子花",
   },
   number: 188,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "papungha",
@@ -1737,6 +1925,7 @@ export const POKEMON_NAMES = [{
     zh: "毽子棉",
   },
   number: 189,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "griffel",
@@ -1746,6 +1935,7 @@ export const POKEMON_NAMES = [{
     zh: "长尾怪手",
   },
   number: 190,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "sonnkern",
@@ -1755,6 +1945,7 @@ export const POKEMON_NAMES = [{
     zh: "向日种子",
   },
   number: 191,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "sonnflora",
@@ -1764,6 +1955,7 @@ export const POKEMON_NAMES = [{
     zh: "向日花怪",
   },
   number: 192,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "yanma",
@@ -1773,6 +1965,7 @@ export const POKEMON_NAMES = [{
     zh: "蜻蜻蜓",
   },
   number: 193,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "felino",
@@ -1782,6 +1975,7 @@ export const POKEMON_NAMES = [{
     zh: "乌波",
   },
   number: 194,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "morlord",
@@ -1791,6 +1985,7 @@ export const POKEMON_NAMES = [{
     zh: "沼王",
   },
   number: 195,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "psiana",
@@ -1800,6 +1995,7 @@ export const POKEMON_NAMES = [{
     zh: "太阳伊布",
   },
   number: 196,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "nachtara",
@@ -1809,6 +2005,7 @@ export const POKEMON_NAMES = [{
     zh: "月亮伊布",
   },
   number: 197,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "kramurx",
@@ -1818,6 +2015,7 @@ export const POKEMON_NAMES = [{
     zh: "黑暗鸦",
   },
   number: 198,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "laschoking",
@@ -1827,6 +2025,7 @@ export const POKEMON_NAMES = [{
     zh: "呆呆王",
   },
   number: 199,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "traunfugil",
@@ -1836,6 +2035,7 @@ export const POKEMON_NAMES = [{
     zh: "梦妖",
   },
   number: 200,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "icognito",
@@ -1845,6 +2045,7 @@ export const POKEMON_NAMES = [{
     zh: "未知图腾",
   },
   number: 201,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "woingenau",
@@ -1854,6 +2055,7 @@ export const POKEMON_NAMES = [{
     zh: "果然翁",
   },
   number: 202,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "girafarig",
@@ -1863,6 +2065,7 @@ export const POKEMON_NAMES = [{
     zh: "麒麟奇",
   },
   number: 203,
+  pokemonTypes: ["normal", "psychic"],
 },{
   names: {
     de: "tannza",
@@ -1872,6 +2075,7 @@ export const POKEMON_NAMES = [{
     zh: "榛果球",
   },
   number: 204,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "forstellka",
@@ -1881,6 +2085,7 @@ export const POKEMON_NAMES = [{
     zh: "佛烈托斯",
   },
   number: 205,
+  pokemonTypes: ["bug", "steel"],
 },{
   names: {
     de: "dummisel",
@@ -1890,6 +2095,7 @@ export const POKEMON_NAMES = [{
     zh: "土龙弟弟",
   },
   number: 206,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "skorgla",
@@ -1899,6 +2105,7 @@ export const POKEMON_NAMES = [{
     zh: "天蝎",
   },
   number: 207,
+  pokemonTypes: ["ground", "flying"],
 },{
   names: {
     de: "stahlos",
@@ -1908,6 +2115,7 @@ export const POKEMON_NAMES = [{
     zh: "大钢蛇",
   },
   number: 208,
+  pokemonTypes: ["steel", "ground"],
 },{
   names: {
     de: "snubbull",
@@ -1917,6 +2125,7 @@ export const POKEMON_NAMES = [{
     zh: "布鲁",
   },
   number: 209,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "granbull",
@@ -1926,6 +2135,7 @@ export const POKEMON_NAMES = [{
     zh: "布鲁皇",
   },
   number: 210,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "baldorfish",
@@ -1935,6 +2145,7 @@ export const POKEMON_NAMES = [{
     zh: "千针鱼",
   },
   number: 211,
+  pokemonTypes: ["water", "poison"],
 },{
   names: {
     de: "scherox",
@@ -1944,6 +2155,7 @@ export const POKEMON_NAMES = [{
     zh: "巨钳螳螂",
   },
   number: 212,
+  pokemonTypes: ["bug", "steel"],
 },{
   names: {
     de: "pottrott",
@@ -1953,6 +2165,7 @@ export const POKEMON_NAMES = [{
     zh: "壶壶",
   },
   number: 213,
+  pokemonTypes: ["bug", "rock"],
 },{
   names: {
     de: "skaraborn",
@@ -1962,6 +2175,7 @@ export const POKEMON_NAMES = [{
     zh: "赫拉克罗斯",
   },
   number: 214,
+  pokemonTypes: ["bug", "fighting"],
 },{
   names: {
     de: "sniebel",
@@ -1971,6 +2185,7 @@ export const POKEMON_NAMES = [{
     zh: "狃拉",
   },
   number: 215,
+  pokemonTypes: ["dark", "ice"],
 },{
   names: {
     de: "teddiursa",
@@ -1980,6 +2195,7 @@ export const POKEMON_NAMES = [{
     zh: "熊宝宝",
   },
   number: 216,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "ursaring",
@@ -1989,6 +2205,7 @@ export const POKEMON_NAMES = [{
     zh: "圈圈熊",
   },
   number: 217,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "schneckmag",
@@ -1998,6 +2215,7 @@ export const POKEMON_NAMES = [{
     zh: "熔岩虫",
   },
   number: 218,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "magcargo",
@@ -2007,6 +2225,7 @@ export const POKEMON_NAMES = [{
     zh: "熔岩蜗牛",
   },
   number: 219,
+  pokemonTypes: ["fire", "rock"],
 },{
   names: {
     de: "quiekel",
@@ -2016,6 +2235,7 @@ export const POKEMON_NAMES = [{
     zh: "小山猪",
   },
   number: 220,
+  pokemonTypes: ["ice", "ground"],
 },{
   names: {
     de: "keifel",
@@ -2025,6 +2245,7 @@ export const POKEMON_NAMES = [{
     zh: "长毛猪",
   },
   number: 221,
+  pokemonTypes: ["ice", "ground"],
 },{
   names: {
     de: "corasonn",
@@ -2034,6 +2255,7 @@ export const POKEMON_NAMES = [{
     zh: "太阳珊瑚",
   },
   number: 222,
+  pokemonTypes: ["water", "rock"],
 },{
   names: {
     de: "remoraid",
@@ -2043,6 +2265,7 @@ export const POKEMON_NAMES = [{
     zh: "铁炮鱼",
   },
   number: 223,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "octillery",
@@ -2052,6 +2275,7 @@ export const POKEMON_NAMES = [{
     zh: "章鱼桶",
   },
   number: 224,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "botogel",
@@ -2061,6 +2285,7 @@ export const POKEMON_NAMES = [{
     zh: "信使鸟",
   },
   number: 225,
+  pokemonTypes: ["ice", "flying"],
 },{
   names: {
     de: "mantax",
@@ -2070,6 +2295,7 @@ export const POKEMON_NAMES = [{
     zh: "巨翅飞鱼",
   },
   number: 226,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "panzaeron",
@@ -2079,6 +2305,7 @@ export const POKEMON_NAMES = [{
     zh: "盔甲鸟",
   },
   number: 227,
+  pokemonTypes: ["steel", "flying"],
 },{
   names: {
     de: "hunduster",
@@ -2088,6 +2315,7 @@ export const POKEMON_NAMES = [{
     zh: "戴鲁比",
   },
   number: 228,
+  pokemonTypes: ["dark", "fire"],
 },{
   names: {
     de: "hundemon",
@@ -2097,6 +2325,7 @@ export const POKEMON_NAMES = [{
     zh: "黑鲁加",
   },
   number: 229,
+  pokemonTypes: ["dark", "fire"],
 },{
   names: {
     de: "seedraking",
@@ -2106,6 +2335,7 @@ export const POKEMON_NAMES = [{
     zh: "刺龙王",
   },
   number: 230,
+  pokemonTypes: ["water", "dragon"],
 },{
   names: {
     de: "phanpy",
@@ -2115,6 +2345,7 @@ export const POKEMON_NAMES = [{
     zh: "小小象",
   },
   number: 231,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "donphan",
@@ -2124,6 +2355,7 @@ export const POKEMON_NAMES = [{
     zh: "顿甲",
   },
   number: 232,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "porygon2",
@@ -2133,6 +2365,7 @@ export const POKEMON_NAMES = [{
     zh: "多边兽２型",
   },
   number: 233,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "damhirplex",
@@ -2142,6 +2375,7 @@ export const POKEMON_NAMES = [{
     zh: "惊角鹿",
   },
   number: 234,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "farbeagle",
@@ -2151,6 +2385,7 @@ export const POKEMON_NAMES = [{
     zh: "图图犬",
   },
   number: 235,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "rabauz",
@@ -2160,6 +2395,7 @@ export const POKEMON_NAMES = [{
     zh: "无畏小子",
   },
   number: 236,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "kapoera",
@@ -2169,6 +2405,7 @@ export const POKEMON_NAMES = [{
     zh: "战舞郎",
   },
   number: 237,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "kussilla",
@@ -2178,6 +2415,7 @@ export const POKEMON_NAMES = [{
     zh: "迷唇娃",
   },
   number: 238,
+  pokemonTypes: ["ice", "psychic"],
 },{
   names: {
     de: "elekid",
@@ -2187,6 +2425,7 @@ export const POKEMON_NAMES = [{
     zh: "电击怪",
   },
   number: 239,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "magby",
@@ -2196,6 +2435,7 @@ export const POKEMON_NAMES = [{
     zh: "鸭嘴宝宝",
   },
   number: 240,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "miltank",
@@ -2205,6 +2445,7 @@ export const POKEMON_NAMES = [{
     zh: "大奶罐",
   },
   number: 241,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "heiteira",
@@ -2214,6 +2455,7 @@ export const POKEMON_NAMES = [{
     zh: "幸福蛋",
   },
   number: 242,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "raikou",
@@ -2223,6 +2465,7 @@ export const POKEMON_NAMES = [{
     zh: "雷公",
   },
   number: 243,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "entei",
@@ -2232,6 +2475,7 @@ export const POKEMON_NAMES = [{
     zh: "炎帝",
   },
   number: 244,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "suicune",
@@ -2241,6 +2485,7 @@ export const POKEMON_NAMES = [{
     zh: "水君",
   },
   number: 245,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "larvitar",
@@ -2250,6 +2495,7 @@ export const POKEMON_NAMES = [{
     zh: "幼基拉斯",
   },
   number: 246,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "pupitar",
@@ -2259,6 +2505,7 @@ export const POKEMON_NAMES = [{
     zh: "沙基拉斯",
   },
   number: 247,
+  pokemonTypes: ["rock", "ground"],
 },{
   names: {
     de: "despotar",
@@ -2268,6 +2515,7 @@ export const POKEMON_NAMES = [{
     zh: "班基拉斯",
   },
   number: 248,
+  pokemonTypes: ["rock", "dark"],
 },{
   names: {
     de: "lugia",
@@ -2277,6 +2525,7 @@ export const POKEMON_NAMES = [{
     zh: "洛奇亚",
   },
   number: 249,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "ho-oh",
@@ -2286,6 +2535,7 @@ export const POKEMON_NAMES = [{
     zh: "凤王",
   },
   number: 250,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "celebi",
@@ -2295,6 +2545,7 @@ export const POKEMON_NAMES = [{
     zh: "时拉比",
   },
   number: 251,
+  pokemonTypes: ["psychic", "grass"],
 },{
   names: {
     de: "geckarbor",
@@ -2304,6 +2555,7 @@ export const POKEMON_NAMES = [{
     zh: "木守宫",
   },
   number: 252,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "reptain",
@@ -2313,6 +2565,7 @@ export const POKEMON_NAMES = [{
     zh: "森林蜥蜴",
   },
   number: 253,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "gewaldro",
@@ -2322,6 +2575,7 @@ export const POKEMON_NAMES = [{
     zh: "蜥蜴王",
   },
   number: 254,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "flemmli",
@@ -2331,6 +2585,7 @@ export const POKEMON_NAMES = [{
     zh: "火稚鸡",
   },
   number: 255,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "jungglut",
@@ -2340,6 +2595,7 @@ export const POKEMON_NAMES = [{
     zh: "力壮鸡",
   },
   number: 256,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "lohgock",
@@ -2349,6 +2605,7 @@ export const POKEMON_NAMES = [{
     zh: "火焰鸡",
   },
   number: 257,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "hydropi",
@@ -2358,6 +2615,7 @@ export const POKEMON_NAMES = [{
     zh: "水跃鱼",
   },
   number: 258,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "moorabbel",
@@ -2367,6 +2625,7 @@ export const POKEMON_NAMES = [{
     zh: "沼跃鱼",
   },
   number: 259,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "sumpex",
@@ -2376,6 +2635,7 @@ export const POKEMON_NAMES = [{
     zh: "巨沼怪",
   },
   number: 260,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "fiffyen",
@@ -2385,6 +2645,7 @@ export const POKEMON_NAMES = [{
     zh: "土狼犬",
   },
   number: 261,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "magnayen",
@@ -2394,6 +2655,7 @@ export const POKEMON_NAMES = [{
     zh: "大狼犬",
   },
   number: 262,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "zigzachs",
@@ -2403,6 +2665,7 @@ export const POKEMON_NAMES = [{
     zh: "蛇纹熊",
   },
   number: 263,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "geradaks",
@@ -2412,6 +2675,7 @@ export const POKEMON_NAMES = [{
     zh: "直冲熊",
   },
   number: 264,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "waumpel",
@@ -2421,6 +2685,7 @@ export const POKEMON_NAMES = [{
     zh: "刺尾虫",
   },
   number: 265,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "schaloko",
@@ -2430,6 +2695,7 @@ export const POKEMON_NAMES = [{
     zh: "甲壳茧",
   },
   number: 266,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "papinella",
@@ -2439,6 +2705,7 @@ export const POKEMON_NAMES = [{
     zh: "狩猎凤蝶",
   },
   number: 267,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "panekon",
@@ -2448,6 +2715,7 @@ export const POKEMON_NAMES = [{
     zh: "盾甲茧",
   },
   number: 268,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "pudox",
@@ -2457,6 +2725,7 @@ export const POKEMON_NAMES = [{
     zh: "毒粉蛾",
   },
   number: 269,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "loturzel",
@@ -2466,6 +2735,7 @@ export const POKEMON_NAMES = [{
     zh: "莲叶童子",
   },
   number: 270,
+  pokemonTypes: ["water", "grass"],
 },{
   names: {
     de: "lombrero",
@@ -2475,6 +2745,7 @@ export const POKEMON_NAMES = [{
     zh: "莲帽小童",
   },
   number: 271,
+  pokemonTypes: ["water", "grass"],
 },{
   names: {
     de: "kappalores",
@@ -2484,6 +2755,7 @@ export const POKEMON_NAMES = [{
     zh: "乐天河童",
   },
   number: 272,
+  pokemonTypes: ["water", "grass"],
 },{
   names: {
     de: "samurzel",
@@ -2493,6 +2765,7 @@ export const POKEMON_NAMES = [{
     zh: "橡实果",
   },
   number: 273,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "blanas",
@@ -2502,6 +2775,7 @@ export const POKEMON_NAMES = [{
     zh: "长鼻叶",
   },
   number: 274,
+  pokemonTypes: ["grass", "dark"],
 },{
   names: {
     de: "tengulist",
@@ -2511,6 +2785,7 @@ export const POKEMON_NAMES = [{
     zh: "狡猾天狗",
   },
   number: 275,
+  pokemonTypes: ["grass", "dark"],
 },{
   names: {
     de: "schwalbini",
@@ -2520,6 +2795,7 @@ export const POKEMON_NAMES = [{
     zh: "傲骨燕",
   },
   number: 276,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "schwalboss",
@@ -2529,6 +2805,7 @@ export const POKEMON_NAMES = [{
     zh: "大王燕",
   },
   number: 277,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "wingull",
@@ -2538,6 +2815,7 @@ export const POKEMON_NAMES = [{
     zh: "长翅鸥",
   },
   number: 278,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "pelipper",
@@ -2547,6 +2825,7 @@ export const POKEMON_NAMES = [{
     zh: "大嘴鸥",
   },
   number: 279,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "trasla",
@@ -2556,6 +2835,7 @@ export const POKEMON_NAMES = [{
     zh: "拉鲁拉丝",
   },
   number: 280,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "kirlia",
@@ -2565,6 +2845,7 @@ export const POKEMON_NAMES = [{
     zh: "奇鲁莉安",
   },
   number: 281,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "guardevoir",
@@ -2574,6 +2855,7 @@ export const POKEMON_NAMES = [{
     zh: "沙奈朵",
   },
   number: 282,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "gehweiher",
@@ -2583,6 +2865,7 @@ export const POKEMON_NAMES = [{
     zh: "溜溜糖球",
   },
   number: 283,
+  pokemonTypes: ["bug", "water"],
 },{
   names: {
     de: "maskeregen",
@@ -2592,6 +2875,7 @@ export const POKEMON_NAMES = [{
     zh: "雨翅蛾",
   },
   number: 284,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "knilz",
@@ -2601,6 +2885,7 @@ export const POKEMON_NAMES = [{
     zh: "蘑蘑菇",
   },
   number: 285,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "kapilz",
@@ -2610,6 +2895,7 @@ export const POKEMON_NAMES = [{
     zh: "斗笠菇",
   },
   number: 286,
+  pokemonTypes: ["grass", "fighting"],
 },{
   names: {
     de: "bummelz",
@@ -2619,6 +2905,7 @@ export const POKEMON_NAMES = [{
     zh: "懒人獭",
   },
   number: 287,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "muntier",
@@ -2628,6 +2915,7 @@ export const POKEMON_NAMES = [{
     zh: "过动猿",
   },
   number: 288,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "letarking",
@@ -2637,6 +2925,7 @@ export const POKEMON_NAMES = [{
     zh: "请假王",
   },
   number: 289,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "nincada",
@@ -2646,6 +2935,7 @@ export const POKEMON_NAMES = [{
     zh: "土居忍士",
   },
   number: 290,
+  pokemonTypes: ["bug", "ground"],
 },{
   names: {
     de: "ninjask",
@@ -2655,6 +2945,7 @@ export const POKEMON_NAMES = [{
     zh: "铁面忍者",
   },
   number: 291,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "ninjatom",
@@ -2664,6 +2955,7 @@ export const POKEMON_NAMES = [{
     zh: "脱壳忍者",
   },
   number: 292,
+  pokemonTypes: ["bug", "ghost"],
 },{
   names: {
     de: "flurmel",
@@ -2673,6 +2965,7 @@ export const POKEMON_NAMES = [{
     zh: "咕妞妞",
   },
   number: 293,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "krakeelo",
@@ -2682,6 +2975,7 @@ export const POKEMON_NAMES = [{
     zh: "吼爆弹",
   },
   number: 294,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "krawumms",
@@ -2691,6 +2985,7 @@ export const POKEMON_NAMES = [{
     zh: "爆音怪",
   },
   number: 295,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "makuhita",
@@ -2700,6 +2995,7 @@ export const POKEMON_NAMES = [{
     zh: "幕下力士",
   },
   number: 296,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "hariyama",
@@ -2709,6 +3005,7 @@ export const POKEMON_NAMES = [{
     zh: "铁掌力士",
   },
   number: 297,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "azurill",
@@ -2718,6 +3015,7 @@ export const POKEMON_NAMES = [{
     zh: "露力丽",
   },
   number: 298,
+  pokemonTypes: ["normal", "fairy"],
 },{
   names: {
     de: "nasgnet",
@@ -2727,6 +3025,7 @@ export const POKEMON_NAMES = [{
     zh: "朝北鼻",
   },
   number: 299,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "eneco",
@@ -2736,6 +3035,7 @@ export const POKEMON_NAMES = [{
     zh: "向尾喵",
   },
   number: 300,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "enekoro",
@@ -2745,6 +3045,7 @@ export const POKEMON_NAMES = [{
     zh: "优雅猫",
   },
   number: 301,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "zobiris",
@@ -2754,6 +3055,7 @@ export const POKEMON_NAMES = [{
     zh: "勾魂眼",
   },
   number: 302,
+  pokemonTypes: ["dark", "ghost"],
 },{
   names: {
     de: "flunkifer",
@@ -2763,6 +3065,7 @@ export const POKEMON_NAMES = [{
     zh: "大嘴娃",
   },
   number: 303,
+  pokemonTypes: ["steel", "fairy"],
 },{
   names: {
     de: "stollunior",
@@ -2772,6 +3075,7 @@ export const POKEMON_NAMES = [{
     zh: "可可多拉",
   },
   number: 304,
+  pokemonTypes: ["steel", "rock"],
 },{
   names: {
     de: "stollrak",
@@ -2781,6 +3085,7 @@ export const POKEMON_NAMES = [{
     zh: "可多拉",
   },
   number: 305,
+  pokemonTypes: ["steel", "rock"],
 },{
   names: {
     de: "stolloss",
@@ -2790,6 +3095,7 @@ export const POKEMON_NAMES = [{
     zh: "波士可多拉",
   },
   number: 306,
+  pokemonTypes: ["steel", "rock"],
 },{
   names: {
     de: "meditie",
@@ -2799,6 +3105,7 @@ export const POKEMON_NAMES = [{
     zh: "玛沙那",
   },
   number: 307,
+  pokemonTypes: ["fighting", "psychic"],
 },{
   names: {
     de: "meditalis",
@@ -2808,6 +3115,7 @@ export const POKEMON_NAMES = [{
     zh: "恰雷姆",
   },
   number: 308,
+  pokemonTypes: ["fighting", "psychic"],
 },{
   names: {
     de: "frizelbliz",
@@ -2817,6 +3125,7 @@ export const POKEMON_NAMES = [{
     zh: "落雷兽",
   },
   number: 309,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "voltenso",
@@ -2826,6 +3135,7 @@ export const POKEMON_NAMES = [{
     zh: "雷电兽",
   },
   number: 310,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "plusle",
@@ -2835,6 +3145,7 @@ export const POKEMON_NAMES = [{
     zh: "正电拍拍",
   },
   number: 311,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "minun",
@@ -2844,6 +3155,7 @@ export const POKEMON_NAMES = [{
     zh: "负电拍拍",
   },
   number: 312,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "volbeat",
@@ -2852,7 +3164,8 @@ export const POKEMON_NAMES = [{
     ja: "バルビート",
     zh: "电萤虫",
   },
-  number: 313,
+  number: 313,  
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "illumise",
@@ -2862,6 +3175,7 @@ export const POKEMON_NAMES = [{
     zh: "甜甜萤",
   },
   number: 314,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "roselia",
@@ -2871,6 +3185,7 @@ export const POKEMON_NAMES = [{
     zh: "毒蔷薇",
   },
   number: 315,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "schluppuck",
@@ -2880,6 +3195,7 @@ export const POKEMON_NAMES = [{
     zh: "溶食兽",
   },
   number: 316,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "schlukwech",
@@ -2889,6 +3205,7 @@ export const POKEMON_NAMES = [{
     zh: "吞食兽",
   },
   number: 317,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "kanivanha",
@@ -2898,6 +3215,7 @@ export const POKEMON_NAMES = [{
     zh: "利牙鱼",
   },
   number: 318,
+  pokemonTypes: ["water", "dark"],
 },{
   names: {
     de: "tohaido",
@@ -2907,6 +3225,7 @@ export const POKEMON_NAMES = [{
     zh: "巨牙鲨",
   },
   number: 319,
+  pokemonTypes: ["water", "dark"],
 },{
   names: {
     de: "wailmer",
@@ -2916,6 +3235,7 @@ export const POKEMON_NAMES = [{
     zh: "吼吼鲸",
   },
   number: 320,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "wailord",
@@ -2925,6 +3245,7 @@ export const POKEMON_NAMES = [{
     zh: "吼鲸王",
   },
   number: 321,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "camaub",
@@ -2934,6 +3255,7 @@ export const POKEMON_NAMES = [{
     zh: "呆火驼",
   },
   number: 322,
+  pokemonTypes: ["fire", "ground"],
 },{
   names: {
     de: "camerupt",
@@ -2943,6 +3265,7 @@ export const POKEMON_NAMES = [{
     zh: "喷火驼",
   },
   number: 323,
+  pokemonTypes: ["fire", "ground"],
 },{
   names: {
     de: "qurtel",
@@ -2952,6 +3275,7 @@ export const POKEMON_NAMES = [{
     zh: "煤炭龟",
   },
   number: 324,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "spoink",
@@ -2961,6 +3285,7 @@ export const POKEMON_NAMES = [{
     zh: "跳跳猪",
   },
   number: 325,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "groink",
@@ -2970,6 +3295,7 @@ export const POKEMON_NAMES = [{
     zh: "噗噗猪",
   },
   number: 326,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "pandir",
@@ -2979,6 +3305,7 @@ export const POKEMON_NAMES = [{
     zh: "晃晃斑",
   },
   number: 327,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "knacklion",
@@ -2988,6 +3315,7 @@ export const POKEMON_NAMES = [{
     zh: "大颚蚁",
   },
   number: 328,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "vibrava",
@@ -2997,6 +3325,7 @@ export const POKEMON_NAMES = [{
     zh: "超音波幼虫",
   },
   number: 329,
+  pokemonTypes: ["ground", "dragon"],
 },{
   names: {
     de: "libelldra",
@@ -3006,6 +3335,7 @@ export const POKEMON_NAMES = [{
     zh: "沙漠蜻蜓",
   },
   number: 330,
+  pokemonTypes: ["ground", "dragon"],
 },{
   names: {
     de: "tuska",
@@ -3015,6 +3345,7 @@ export const POKEMON_NAMES = [{
     zh: "刺球仙人掌",
   },
   number: 331,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "noktuska",
@@ -3024,6 +3355,7 @@ export const POKEMON_NAMES = [{
     zh: "梦歌仙人掌",
   },
   number: 332,
+  pokemonTypes: ["grass", "dark"],
 },{
   names: {
     de: "wablu",
@@ -3033,6 +3365,7 @@ export const POKEMON_NAMES = [{
     zh: "青绵鸟",
   },
   number: 333,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "altaria",
@@ -3042,6 +3375,7 @@ export const POKEMON_NAMES = [{
     zh: "七夕青鸟",
   },
   number: 334,
+  pokemonTypes: ["dragon", "flying"],
 },{
   names: {
     de: "sengo",
@@ -3051,6 +3385,7 @@ export const POKEMON_NAMES = [{
     zh: "猫鼬斩",
   },
   number: 335,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "vipitis",
@@ -3060,6 +3395,7 @@ export const POKEMON_NAMES = [{
     zh: "饭匙蛇",
   },
   number: 336,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "lunastein",
@@ -3069,6 +3405,7 @@ export const POKEMON_NAMES = [{
     zh: "月石",
   },
   number: 337,
+  pokemonTypes: ["rock", "psychic"],
 },{
   names: {
     de: "sonnfel",
@@ -3078,6 +3415,7 @@ export const POKEMON_NAMES = [{
     zh: "太阳岩",
   },
   number: 338,
+  pokemonTypes: ["rock", "psychic"],
 },{
   names: {
     de: "schmerbe",
@@ -3087,6 +3425,7 @@ export const POKEMON_NAMES = [{
     zh: "泥泥鳅",
   },
   number: 339,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "welsar",
@@ -3096,6 +3435,7 @@ export const POKEMON_NAMES = [{
     zh: "鲶鱼王",
   },
   number: 340,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "krebscorps",
@@ -3105,6 +3445,7 @@ export const POKEMON_NAMES = [{
     zh: "龙虾小兵",
   },
   number: 341,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "krebutack",
@@ -3114,6 +3455,7 @@ export const POKEMON_NAMES = [{
     zh: "铁螯龙虾",
   },
   number: 342,
+  pokemonTypes: ["water", "dark"],
 },{
   names: {
     de: "puppance",
@@ -3123,6 +3465,7 @@ export const POKEMON_NAMES = [{
     zh: "天秤偶",
   },
   number: 343,
+  pokemonTypes: ["ground", "psychic"],
 },{
   names: {
     de: "lepumentas",
@@ -3132,6 +3475,7 @@ export const POKEMON_NAMES = [{
     zh: "念力土偶",
   },
   number: 344,
+  pokemonTypes: ["ground", "psychic"],
 },{
   names: {
     de: "liliep",
@@ -3141,6 +3485,7 @@ export const POKEMON_NAMES = [{
     zh: "触手百合",
   },
   number: 345,
+  pokemonTypes: ["rock", "grass"],
 },{
   names: {
     de: "wielie",
@@ -3150,6 +3495,7 @@ export const POKEMON_NAMES = [{
     zh: "摇篮百合",
   },
   number: 346,
+  pokemonTypes: ["rock", "grass"],
 },{
   names: {
     de: "anorith",
@@ -3159,6 +3505,7 @@ export const POKEMON_NAMES = [{
     zh: "太古羽虫",
   },
   number: 347,
+  pokemonTypes: ["rock", "bug"],
 },{
   names: {
     de: "armaldo",
@@ -3168,6 +3515,7 @@ export const POKEMON_NAMES = [{
     zh: "太古盔甲",
   },
   number: 348,
+  pokemonTypes: ["rock", "bug"],
 },{
   names: {
     de: "barschwa",
@@ -3177,6 +3525,7 @@ export const POKEMON_NAMES = [{
     zh: "丑丑鱼",
   },
   number: 349,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "milotic",
@@ -3186,6 +3535,7 @@ export const POKEMON_NAMES = [{
     zh: "美纳斯",
   },
   number: 350,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "formeo",
@@ -3195,6 +3545,7 @@ export const POKEMON_NAMES = [{
     zh: "飘浮泡泡",
   },
   number: 351,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "kecleon",
@@ -3204,6 +3555,7 @@ export const POKEMON_NAMES = [{
     zh: "变隐龙",
   },
   number: 352,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "shuppet",
@@ -3213,6 +3565,7 @@ export const POKEMON_NAMES = [{
     zh: "怨影娃娃",
   },
   number: 353,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "banette",
@@ -3222,6 +3575,7 @@ export const POKEMON_NAMES = [{
     zh: "诅咒娃娃",
   },
   number: 354,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "zwirrlicht",
@@ -3231,6 +3585,7 @@ export const POKEMON_NAMES = [{
     zh: "夜巡灵",
   },
   number: 355,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "zwirrklop",
@@ -3240,6 +3595,7 @@ export const POKEMON_NAMES = [{
     zh: "彷徨夜灵",
   },
   number: 356,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "tropius",
@@ -3249,6 +3605,7 @@ export const POKEMON_NAMES = [{
     zh: "热带龙",
   },
   number: 357,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "palimpalim",
@@ -3258,6 +3615,7 @@ export const POKEMON_NAMES = [{
     zh: "风铃铃",
   },
   number: 358,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "absol",
@@ -3267,6 +3625,7 @@ export const POKEMON_NAMES = [{
     zh: "阿勃梭鲁",
   },
   number: 359,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "isso",
@@ -3276,6 +3635,7 @@ export const POKEMON_NAMES = [{
     zh: "小果然",
   },
   number: 360,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "schneppke",
@@ -3285,6 +3645,7 @@ export const POKEMON_NAMES = [{
     zh: "雪童子",
   },
   number: 361,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "firnontor",
@@ -3294,6 +3655,7 @@ export const POKEMON_NAMES = [{
     zh: "冰鬼护",
   },
   number: 362,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "seemops",
@@ -3303,6 +3665,7 @@ export const POKEMON_NAMES = [{
     zh: "海豹球",
   },
   number: 363,
+  pokemonTypes: ["ice", "water"],
 },{
   names: {
     de: "seejong",
@@ -3312,6 +3675,7 @@ export const POKEMON_NAMES = [{
     zh: "海魔狮",
   },
   number: 364,
+  pokemonTypes: ["ice", "water"],
 },{
   names: {
     de: "walraisa",
@@ -3321,6 +3685,7 @@ export const POKEMON_NAMES = [{
     zh: "帝牙海狮",
   },
   number: 365,
+  pokemonTypes: ["ice", "water"],
 },{
   names: {
     de: "perlu",
@@ -3330,6 +3695,7 @@ export const POKEMON_NAMES = [{
     zh: "珍珠贝",
   },
   number: 366,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "aalabyss",
@@ -3339,6 +3705,7 @@ export const POKEMON_NAMES = [{
     zh: "猎斑鱼",
   },
   number: 367,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "saganabyss",
@@ -3348,6 +3715,7 @@ export const POKEMON_NAMES = [{
     zh: "樱花鱼",
   },
   number: 368,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "relicanth",
@@ -3357,6 +3725,7 @@ export const POKEMON_NAMES = [{
     zh: "古空棘鱼",
   },
   number: 369,
+  pokemonTypes: ["water", "rock"],
 },{
   names: {
     de: "liebiskus",
@@ -3366,6 +3735,7 @@ export const POKEMON_NAMES = [{
     zh: "爱心鱼",
   },
   number: 370,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "kindwurm",
@@ -3375,6 +3745,7 @@ export const POKEMON_NAMES = [{
     zh: "宝贝龙",
   },
   number: 371,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "draschel",
@@ -3384,6 +3755,7 @@ export const POKEMON_NAMES = [{
     zh: "甲壳龙",
   },
   number: 372,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "brutalanda",
@@ -3393,6 +3765,7 @@ export const POKEMON_NAMES = [{
     zh: "暴飞龙",
   },
   number: 373,
+  pokemonTypes: ["dragon", "flying"],
 },{
   names: {
     de: "tanhel",
@@ -3402,6 +3775,7 @@ export const POKEMON_NAMES = [{
     zh: "铁哑铃",
   },
   number: 374,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "metang",
@@ -3411,6 +3785,7 @@ export const POKEMON_NAMES = [{
     zh: "金属怪",
   },
   number: 375,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "metagross",
@@ -3420,6 +3795,7 @@ export const POKEMON_NAMES = [{
     zh: "巨金怪",
   },
   number: 376,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "regirock",
@@ -3429,6 +3805,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉洛克",
   },
   number: 377,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "regice",
@@ -3438,6 +3815,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉艾斯",
   },
   number: 378,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "registeel",
@@ -3447,6 +3825,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉斯奇鲁",
   },
   number: 379,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "latias",
@@ -3456,6 +3835,7 @@ export const POKEMON_NAMES = [{
     zh: "拉帝亚斯",
   },
   number: 380,
+  pokemonTypes: ["dragon", "psychic"],
 },{
   names: {
     de: "latios",
@@ -3465,6 +3845,7 @@ export const POKEMON_NAMES = [{
     zh: "拉帝欧斯",
   },
   number: 381,
+  pokemonTypes: ["dragon", "psychic"],
 },{
   names: {
     de: "kyogre",
@@ -3474,6 +3855,7 @@ export const POKEMON_NAMES = [{
     zh: "盖欧卡",
   },
   number: 382,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "groudon",
@@ -3483,6 +3865,7 @@ export const POKEMON_NAMES = [{
     zh: "固拉多",
   },
   number: 383,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "rayquaza",
@@ -3492,6 +3875,7 @@ export const POKEMON_NAMES = [{
     zh: "烈空坐",
   },
   number: 384,
+  pokemonTypes: ["dragon", "flying"],
 },{
   names: {
     de: "jirachi",
@@ -3501,6 +3885,7 @@ export const POKEMON_NAMES = [{
     zh: "基拉祈",
   },
   number: 385,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "deoxys",
@@ -3510,6 +3895,7 @@ export const POKEMON_NAMES = [{
     zh: "代欧奇希斯",
   },
   number: 386,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "chelast",
@@ -3519,6 +3905,7 @@ export const POKEMON_NAMES = [{
     zh: "草苗龟",
   },
   number: 387,
+  pokemonTypes: ["grass", ""], 
 },{
   names: {
     de: "chelcarain",
@@ -3528,6 +3915,7 @@ export const POKEMON_NAMES = [{
     zh: "树林龟",
   },
   number: 388,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "chelterrar",
@@ -3537,6 +3925,7 @@ export const POKEMON_NAMES = [{
     zh: "土台龟",
   },
   number: 389,
+  pokemonTypes: ["grass", "ground"],
 },{
   names: {
     de: "panflam",
@@ -3546,6 +3935,7 @@ export const POKEMON_NAMES = [{
     zh: "小火焰猴",
   },
   number: 390,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "panpyro",
@@ -3555,6 +3945,7 @@ export const POKEMON_NAMES = [{
     zh: "猛火猴",
   },
   number: 391,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "panferno",
@@ -3564,6 +3955,7 @@ export const POKEMON_NAMES = [{
     zh: "烈焰猴",
   },
   number: 392,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "plinfa",
@@ -3573,6 +3965,7 @@ export const POKEMON_NAMES = [{
     zh: "波加曼",
   },
   number: 393,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "pliprin",
@@ -3582,6 +3975,7 @@ export const POKEMON_NAMES = [{
     zh: "波皇子",
   },
   number: 394,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "impoleon",
@@ -3591,6 +3985,7 @@ export const POKEMON_NAMES = [{
     zh: "帝王拿波",
   },
   number: 395,
+  pokemonTypes: ["water", "steel"],
 },{
   names: {
     de: "staralili",
@@ -3600,6 +3995,7 @@ export const POKEMON_NAMES = [{
     zh: "姆克儿",
   },
   number: 396,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "staravia",
@@ -3609,6 +4005,7 @@ export const POKEMON_NAMES = [{
     zh: "姆克鸟",
   },
   number: 397,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "staraptor",
@@ -3618,6 +4015,7 @@ export const POKEMON_NAMES = [{
     zh: "姆克鹰",
   },
   number: 398,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "bidiza",
@@ -3627,6 +4025,7 @@ export const POKEMON_NAMES = [{
     zh: "大牙狸",
   },
   number: 399,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "bidifas",
@@ -3636,6 +4035,7 @@ export const POKEMON_NAMES = [{
     zh: "大尾狸",
   },
   number: 400,
+  pokemonTypes: ["normal", "water"],
 },{
   names: {
     de: "zirpurze",
@@ -3645,6 +4045,7 @@ export const POKEMON_NAMES = [{
     zh: "圆法师",
   },
   number: 401,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "zirpeise",
@@ -3654,6 +4055,7 @@ export const POKEMON_NAMES = [{
     zh: "音箱蟀",
   },
   number: 402,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "sheinux",
@@ -3663,6 +4065,7 @@ export const POKEMON_NAMES = [{
     zh: "小猫怪",
   },
   number: 403,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "luxio",
@@ -3672,6 +4075,7 @@ export const POKEMON_NAMES = [{
     zh: "勒克猫",
   },
   number: 404,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "luxtra",
@@ -3681,6 +4085,7 @@ export const POKEMON_NAMES = [{
     zh: "伦琴猫",
   },
   number: 405,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "knospi",
@@ -3690,6 +4095,7 @@ export const POKEMON_NAMES = [{
     zh: "含羞苞",
   },
   number: 406,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "roserade",
@@ -3699,6 +4105,7 @@ export const POKEMON_NAMES = [{
     zh: "罗丝雷朵",
   },
   number: 407,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "koknodon",
@@ -3708,6 +4115,7 @@ export const POKEMON_NAMES = [{
     zh: "头盖龙",
   },
   number: 408,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "rameidon",
@@ -3717,6 +4125,7 @@ export const POKEMON_NAMES = [{
     zh: "战槌龙",
   },
   number: 409,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "schilterus",
@@ -3726,6 +4135,7 @@ export const POKEMON_NAMES = [{
     zh: "盾甲龙",
   },
   number: 410,
+  pokemonTypes: ["rock", "steel"],
 },{
   names: {
     de: "bollterus",
@@ -3735,6 +4145,7 @@ export const POKEMON_NAMES = [{
     zh: "护城龙",
   },
   number: 411,
+  pokemonTypes: ["rock", "steel"],
 },{
   names: {
     de: "burmy",
@@ -3744,6 +4155,7 @@ export const POKEMON_NAMES = [{
     zh: "结草儿",
   },
   number: 412,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "burmadame",
@@ -3753,6 +4165,7 @@ export const POKEMON_NAMES = [{
     zh: "结草贵妇",
   },
   number: 413,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "moterpel",
@@ -3762,6 +4175,7 @@ export const POKEMON_NAMES = [{
     zh: "绅士蛾",
   },
   number: 414,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "wadribie",
@@ -3771,6 +4185,7 @@ export const POKEMON_NAMES = [{
     zh: "三蜜蜂",
   },
   number: 415,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "honweisel",
@@ -3780,6 +4195,7 @@ export const POKEMON_NAMES = [{
     zh: "蜂女王",
   },
   number: 416,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "pachirisu",
@@ -3789,6 +4205,7 @@ export const POKEMON_NAMES = [{
     zh: "帕奇利兹",
   },
   number: 417,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "bamelin",
@@ -3798,6 +4215,7 @@ export const POKEMON_NAMES = [{
     zh: "泳圈鼬",
   },
   number: 418,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "bojelin",
@@ -3807,6 +4225,7 @@ export const POKEMON_NAMES = [{
     zh: "浮潜鼬",
   },
   number: 419,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "kikugi",
@@ -3816,6 +4235,7 @@ export const POKEMON_NAMES = [{
     zh: "樱花宝",
   },
   number: 420,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "kinoso",
@@ -3825,6 +4245,7 @@ export const POKEMON_NAMES = [{
     zh: "樱花儿",
   },
   number: 421,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "schalellos",
@@ -3834,6 +4255,7 @@ export const POKEMON_NAMES = [{
     zh: "无壳海兔",
   },
   number: 422,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "gastrodon",
@@ -3843,6 +4265,7 @@ export const POKEMON_NAMES = [{
     zh: "海兔兽",
   },
   number: 423,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "ambidiffel",
@@ -3852,6 +4275,7 @@ export const POKEMON_NAMES = [{
     zh: "双尾怪手",
   },
   number: 424,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "driftlon",
@@ -3861,6 +4285,7 @@ export const POKEMON_NAMES = [{
     zh: "飘飘球",
   },
   number: 425,
+  pokemonTypes: ["ghost", "flying"],
 },{
   names: {
     de: "drifzepeli",
@@ -3870,6 +4295,7 @@ export const POKEMON_NAMES = [{
     zh: "随风球",
   },
   number: 426,
+  pokemonTypes: ["ghost", "flying"],
 },{
   names: {
     de: "haspiror",
@@ -3879,6 +4305,7 @@ export const POKEMON_NAMES = [{
     zh: "卷卷耳",
   },
   number: 427,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "schlapor",
@@ -3888,6 +4315,7 @@ export const POKEMON_NAMES = [{
     zh: "长耳兔",
   },
   number: 428,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "traunmagil",
@@ -3897,6 +4325,7 @@ export const POKEMON_NAMES = [{
     zh: "梦妖魔",
   },
   number: 429,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "kramshef",
@@ -3906,6 +4335,7 @@ export const POKEMON_NAMES = [{
     zh: "乌鸦头头",
   },
   number: 430,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "charmian",
@@ -3915,6 +4345,7 @@ export const POKEMON_NAMES = [{
     zh: "魅力喵",
   },
   number: 431,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "shnurgarst",
@@ -3924,6 +4355,7 @@ export const POKEMON_NAMES = [{
     zh: "东施喵",
   },
   number: 432,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "klingplim",
@@ -3933,6 +4365,7 @@ export const POKEMON_NAMES = [{
     zh: "铃铛响",
   },
   number: 433,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "skunkapuh",
@@ -3942,6 +4375,7 @@ export const POKEMON_NAMES = [{
     zh: "臭鼬噗",
   },
   number: 434,
+  pokemonTypes: ["poison", "dark"],
 },{
   names: {
     de: "skuntank",
@@ -3951,6 +4385,7 @@ export const POKEMON_NAMES = [{
     zh: "坦克臭鼬",
   },
   number: 435,
+  pokemonTypes: ["poison", "dark"],
 },{
   names: {
     de: "bronzel",
@@ -3960,6 +4395,7 @@ export const POKEMON_NAMES = [{
     zh: "铜镜怪",
   },
   number: 436,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "bronzong",
@@ -3969,6 +4405,7 @@ export const POKEMON_NAMES = [{
     zh: "青铜钟",
   },
   number: 437,
+  pokemonTypes: ["steel", "psychic"],
 },{
   names: {
     de: "mobai",
@@ -3978,6 +4415,7 @@ export const POKEMON_NAMES = [{
     zh: "盆才怪",
   },
   number: 438,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "pantimimi",
@@ -3987,6 +4425,7 @@ export const POKEMON_NAMES = [{
     zh: "魔尼尼",
   },
   number: 439,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "wonneira",
@@ -3996,6 +4435,7 @@ export const POKEMON_NAMES = [{
     zh: "小福蛋",
   },
   number: 440,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "plaudagei",
@@ -4005,6 +4445,7 @@ export const POKEMON_NAMES = [{
     zh: "聒噪鸟",
   },
   number: 441,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "kryppuk",
@@ -4014,6 +4455,7 @@ export const POKEMON_NAMES = [{
     zh: "花岩怪",
   },
   number: 442,
+  pokemonTypes: ["ghost", "dark"],
 },{
   names: {
     de: "kaumalat",
@@ -4023,6 +4465,7 @@ export const POKEMON_NAMES = [{
     zh: "圆陆鲨",
   },
   number: 443,
+  pokemonTypes: ["dragon", "ground"],
 },{
   names: {
     de: "knarksel",
@@ -4032,6 +4475,7 @@ export const POKEMON_NAMES = [{
     zh: "尖牙陆鲨",
   },
   number: 444,
+  pokemonTypes: ["dragon", "ground"],
 },{
   names: {
     de: "knakrack",
@@ -4041,6 +4485,7 @@ export const POKEMON_NAMES = [{
     zh: "烈咬陆鲨",
   },
   number: 445,
+  pokemonTypes: ["dragon", "ground"],
 },{
   names: {
     de: "mampfaxo",
@@ -4050,6 +4495,7 @@ export const POKEMON_NAMES = [{
     zh: "小卡比兽",
   },
   number: 446,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "riolu",
@@ -4059,6 +4505,7 @@ export const POKEMON_NAMES = [{
     zh: "利欧路",
   },
   number: 447,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "lucario",
@@ -4068,6 +4515,7 @@ export const POKEMON_NAMES = [{
     zh: "路卡利欧",
   },
   number: 448,
+  pokemonTypes: ["fighting", "steel"],
 },{
   names: {
     de: "hippopotas",
@@ -4077,6 +4525,7 @@ export const POKEMON_NAMES = [{
     zh: "沙河马",
   },
   number: 449,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "hippoterus",
@@ -4086,6 +4535,7 @@ export const POKEMON_NAMES = [{
     zh: "河马兽",
   },
   number: 450,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "pionskora",
@@ -4095,6 +4545,7 @@ export const POKEMON_NAMES = [{
     zh: "钳尾蝎",
   },
   number: 451,
+  pokemonTypes: ["poison", "bug"],
 },{
   names: {
     de: "piondragi",
@@ -4104,6 +4555,7 @@ export const POKEMON_NAMES = [{
     zh: "龙王蝎",
   },
   number: 452,
+  pokemonTypes: ["poison", "dark"],
 },{
   names: {
     de: "glibunkel",
@@ -4113,6 +4565,7 @@ export const POKEMON_NAMES = [{
     zh: "不良蛙",
   },
   number: 453,
+  pokemonTypes: ["poison", "fighting"],
 },{
   names: {
     de: "toxiquak",
@@ -4122,6 +4575,7 @@ export const POKEMON_NAMES = [{
     zh: "毒骷蛙",
   },
   number: 454,
+  pokemonTypes: ["poison", "fighting"],
 },{
   names: {
     de: "venuflibis",
@@ -4131,6 +4585,7 @@ export const POKEMON_NAMES = [{
     zh: "尖牙笼",
   },
   number: 455,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "finneon",
@@ -4140,6 +4595,7 @@ export const POKEMON_NAMES = [{
     zh: "荧光鱼",
   },
   number: 456,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "lumineon",
@@ -4149,6 +4605,7 @@ export const POKEMON_NAMES = [{
     zh: "霓虹鱼",
   },
   number: 457,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "mantirps",
@@ -4158,6 +4615,7 @@ export const POKEMON_NAMES = [{
     zh: "小球飞鱼",
   },
   number: 458,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "shnebedeck",
@@ -4167,6 +4625,7 @@ export const POKEMON_NAMES = [{
     zh: "雪笠怪",
   },
   number: 459,
+  pokemonTypes: ["grass", "ice"],
 },{
   names: {
     de: "rexblisar",
@@ -4176,6 +4635,7 @@ export const POKEMON_NAMES = [{
     zh: "暴雪王",
   },
   number: 460,
+  pokemonTypes: ["grass", "ice"],
 },{
   names: {
     de: "snibunna",
@@ -4185,6 +4645,7 @@ export const POKEMON_NAMES = [{
     zh: "玛狃拉",
   },
   number: 461,
+  pokemonTypes: ["dark", "ice"],
 },{
   names: {
     de: "magnezone",
@@ -4194,6 +4655,7 @@ export const POKEMON_NAMES = [{
     zh: "自爆磁怪",
   },
   number: 462,
+  pokemonTypes: ["electric", "steel"],
 },{
   names: {
     de: "schlurplek",
@@ -4203,6 +4665,7 @@ export const POKEMON_NAMES = [{
     zh: "大舌舔",
   },
   number: 463,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "rihornior",
@@ -4212,6 +4675,7 @@ export const POKEMON_NAMES = [{
     zh: "超甲狂犀",
   },
   number: 464,
+  pokemonTypes: ["ground", "rock"],
 },{
   names: {
     de: "tangoloss",
@@ -4221,6 +4685,7 @@ export const POKEMON_NAMES = [{
     zh: "巨蔓藤",
   },
   number: 465,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "elevoltek",
@@ -4230,6 +4695,7 @@ export const POKEMON_NAMES = [{
     zh: "电击魔兽",
   },
   number: 466,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "magbrant",
@@ -4239,6 +4705,7 @@ export const POKEMON_NAMES = [{
     zh: "鸭嘴炎兽",
   },
   number: 467,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "togekiss",
@@ -4248,6 +4715,7 @@ export const POKEMON_NAMES = [{
     zh: "波克基斯",
   },
   number: 468,
+  pokemonTypes: ["fairy", "flying"],
 },{
   names: {
     de: "yanmega",
@@ -4257,6 +4725,7 @@ export const POKEMON_NAMES = [{
     zh: "远古巨蜓",
   },
   number: 469,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "folipurba",
@@ -4266,6 +4735,7 @@ export const POKEMON_NAMES = [{
     zh: "叶伊布",
   },
   number: 470,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "glaziola",
@@ -4275,6 +4745,7 @@ export const POKEMON_NAMES = [{
     zh: "冰伊布",
   },
   number: 471,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "skorgro",
@@ -4284,6 +4755,7 @@ export const POKEMON_NAMES = [{
     zh: "天蝎王",
   },
   number: 472,
+  pokemonTypes: ["ground", "flying"],
 },{
   names: {
     de: "mamutel",
@@ -4293,6 +4765,7 @@ export const POKEMON_NAMES = [{
     zh: "象牙猪",
   },
   number: 473,
+  pokemonTypes: ["ice", "ground"],
 },{
   names: {
     de: "porygon-z",
@@ -4302,6 +4775,7 @@ export const POKEMON_NAMES = [{
     zh: "多边兽乙型",
   },
   number: 474,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "galagladi",
@@ -4311,6 +4785,7 @@ export const POKEMON_NAMES = [{
     zh: "艾路雷朵",
   },
   number: 475,
+  pokemonTypes: ["psychic", "fighting"],
 },{
   names: {
     de: "voluminas",
@@ -4320,6 +4795,7 @@ export const POKEMON_NAMES = [{
     zh: "大朝北鼻",
   },
   number: 476,
+  pokemonTypes: ["rock", "steel"],
 },{
   names: {
     de: "zwirrfinst",
@@ -4329,6 +4805,7 @@ export const POKEMON_NAMES = [{
     zh: "黑夜魔灵",
   },
   number: 477,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "frosdedje",
@@ -4338,6 +4815,7 @@ export const POKEMON_NAMES = [{
     zh: "雪妖女",
   },
   number: 478,
+  pokemonTypes: ["ice", "ghost"],
 },{
   names: {
     de: "rotom",
@@ -4347,6 +4825,7 @@ export const POKEMON_NAMES = [{
     zh: "洛托姆",
   },
   number: 479,
+  pokemonTypes: ["electric", "ghost"],
 },{
   names: {
     de: "selfe",
@@ -4356,6 +4835,7 @@ export const POKEMON_NAMES = [{
     zh: "由克希",
   },
   number: 480,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "vesprit",
@@ -4365,6 +4845,7 @@ export const POKEMON_NAMES = [{
     zh: "艾姆利多",
   },
   number: 481,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "tobutz",
@@ -4374,6 +4855,7 @@ export const POKEMON_NAMES = [{
     zh: "亚克诺姆",
   },
   number: 482,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "dialga",
@@ -4383,6 +4865,7 @@ export const POKEMON_NAMES = [{
     zh: "帝牙卢卡",
   },
   number: 483,
+  pokemonTypes: ["steel", "dragon"],
 },{
   names: {
     de: "palkia",
@@ -4392,6 +4875,7 @@ export const POKEMON_NAMES = [{
     zh: "帕路奇亚",
   },
   number: 484,
+  pokemonTypes: ["water", "dragon"],
 },{
   names: {
     de: "heatran",
@@ -4401,6 +4885,7 @@ export const POKEMON_NAMES = [{
     zh: "席多蓝恩",
   },
   number: 485,
+  pokemonTypes: ["fire", "steel"],
 },{
   names: {
     de: "regigigas",
@@ -4410,6 +4895,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉奇卡斯",
   },
   number: 486,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "giratina",
@@ -4419,6 +4905,7 @@ export const POKEMON_NAMES = [{
     zh: "骑拉帝纳",
   },
   number: 487,
+  pokemonTypes: ["ghost", "dragon"],
 },{
   names: {
     de: "cresselia",
@@ -4428,6 +4915,7 @@ export const POKEMON_NAMES = [{
     zh: "克雷色利亚",
   },
   number: 488,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "phione",
@@ -4437,6 +4925,7 @@ export const POKEMON_NAMES = [{
     zh: "霏欧纳",
   },
   number: 489,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "manaphy",
@@ -4446,6 +4935,7 @@ export const POKEMON_NAMES = [{
     zh: "玛纳霏",
   },
   number: 490,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "darkrai",
@@ -4455,6 +4945,7 @@ export const POKEMON_NAMES = [{
     zh: "达克莱伊",
   },
   number: 491,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "shaymin",
@@ -4464,6 +4955,7 @@ export const POKEMON_NAMES = [{
     zh: "谢米",
   },
   number: 492,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "arceus",
@@ -4473,6 +4965,7 @@ export const POKEMON_NAMES = [{
     zh: "阿尔宙斯",
   },
   number: 493,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "victini",
@@ -4482,6 +4975,7 @@ export const POKEMON_NAMES = [{
     zh: "比克提尼",
   },
   number: 494,
+  pokemonTypes: ["psychic", "fire"],
 },{
   names: {
     de: "serpifeu",
@@ -4491,6 +4985,7 @@ export const POKEMON_NAMES = [{
     zh: "藤藤蛇",
   },
   number: 495,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "efoserp",
@@ -4500,6 +4995,7 @@ export const POKEMON_NAMES = [{
     zh: "青藤蛇",
   },
   number: 496,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "serpiroyal",
@@ -4509,6 +5005,7 @@ export const POKEMON_NAMES = [{
     zh: "君主蛇",
   },
   number: 497,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "floink",
@@ -4518,6 +5015,7 @@ export const POKEMON_NAMES = [{
     zh: "暖暖猪",
   },
   number: 498,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "ferkokel",
@@ -4527,6 +5025,7 @@ export const POKEMON_NAMES = [{
     zh: "炒炒猪",
   },
   number: 499,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "flambirex",
@@ -4536,6 +5035,7 @@ export const POKEMON_NAMES = [{
     zh: "炎武王",
   },
   number: 500,
+  pokemonTypes: ["fire", "fighting"],
 },{
   names: {
     de: "ottaro",
@@ -4545,6 +5045,7 @@ export const POKEMON_NAMES = [{
     zh: "水水獭",
   },
   number: 501,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "zwottronin",
@@ -4554,6 +5055,7 @@ export const POKEMON_NAMES = [{
     zh: "双刃丸",
   },
   number: 502,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "admurai",
@@ -4563,6 +5065,7 @@ export const POKEMON_NAMES = [{
     zh: "大剑鬼",
   },
   number: 503,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "nagelotz",
@@ -4572,6 +5075,7 @@ export const POKEMON_NAMES = [{
     zh: "探探鼠",
   },
   number: 504,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "kukmarda",
@@ -4581,6 +5085,7 @@ export const POKEMON_NAMES = [{
     zh: "步哨鼠",
   },
   number: 505,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "yorkleff",
@@ -4590,6 +5095,7 @@ export const POKEMON_NAMES = [{
     zh: "小约克",
   },
   number: 506,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "terribark",
@@ -4599,6 +5105,7 @@ export const POKEMON_NAMES = [{
     zh: "哈约克",
   },
   number: 507,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "bissbark",
@@ -4608,6 +5115,7 @@ export const POKEMON_NAMES = [{
     zh: "长毛狗",
   },
   number: 508,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "felilou",
@@ -4617,6 +5125,7 @@ export const POKEMON_NAMES = [{
     zh: "扒手猫",
   },
   number: 509,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "kleoparda",
@@ -4626,6 +5135,7 @@ export const POKEMON_NAMES = [{
     zh: "酷豹",
   },
   number: 510,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "vegimak",
@@ -4635,6 +5145,7 @@ export const POKEMON_NAMES = [{
     zh: "花椰猴",
   },
   number: 511,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "vegichita",
@@ -4644,6 +5155,7 @@ export const POKEMON_NAMES = [{
     zh: "花椰猿",
   },
   number: 512,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "grillmak",
@@ -4653,6 +5165,7 @@ export const POKEMON_NAMES = [{
     zh: "爆香猴",
   },
   number: 513,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "grillchita",
@@ -4662,6 +5175,7 @@ export const POKEMON_NAMES = [{
     zh: "爆香猿",
   },
   number: 514,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "sodamak",
@@ -4671,6 +5185,7 @@ export const POKEMON_NAMES = [{
     zh: "冷水猴",
   },
   number: 515,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "sodachita",
@@ -4680,6 +5195,7 @@ export const POKEMON_NAMES = [{
     zh: "冷水猿",
   },
   number: 516,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "somniam",
@@ -4689,6 +5205,7 @@ export const POKEMON_NAMES = [{
     zh: "食梦梦",
   },
   number: 517,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "somnivora",
@@ -4698,6 +5215,7 @@ export const POKEMON_NAMES = [{
     zh: "梦梦蚀",
   },
   number: 518,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "dusselgurr",
@@ -4707,6 +5225,7 @@ export const POKEMON_NAMES = [{
     zh: "豆豆鸽",
   },
   number: 519,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "navitaub",
@@ -4716,6 +5235,7 @@ export const POKEMON_NAMES = [{
     zh: "咕咕鸽",
   },
   number: 520,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "fasasnob",
@@ -4725,6 +5245,7 @@ export const POKEMON_NAMES = [{
     zh: "高傲雉鸡",
   },
   number: 521,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "elezeba",
@@ -4734,6 +5255,7 @@ export const POKEMON_NAMES = [{
     zh: "斑斑马",
   },
   number: 522,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "zebritz",
@@ -4743,6 +5265,7 @@ export const POKEMON_NAMES = [{
     zh: "雷电斑马",
   },
   number: 523,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "kiesling",
@@ -4752,6 +5275,7 @@ export const POKEMON_NAMES = [{
     zh: "石丸子",
   },
   number: 524,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "sedimantur",
@@ -4761,6 +5285,7 @@ export const POKEMON_NAMES = [{
     zh: "地幔岩",
   },
   number: 525,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "brockoloss",
@@ -4770,6 +5295,7 @@ export const POKEMON_NAMES = [{
     zh: "庞岩怪",
   },
   number: 526,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "fleknoil",
@@ -4779,6 +5305,7 @@ export const POKEMON_NAMES = [{
     zh: "滚滚蝙蝠",
   },
   number: 527,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "fletiamo",
@@ -4788,6 +5315,7 @@ export const POKEMON_NAMES = [{
     zh: "心蝙蝠",
   },
   number: 528,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "rotomurf",
@@ -4797,6 +5325,7 @@ export const POKEMON_NAMES = [{
     zh: "螺钉地鼠",
   },
   number: 529,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "stalobor",
@@ -4806,6 +5335,7 @@ export const POKEMON_NAMES = [{
     zh: "龙头地鼠",
   },
   number: 530,
+  pokemonTypes: ["ground", "steel"],
 },{
   names: {
     de: "ohrdoch",
@@ -4815,6 +5345,7 @@ export const POKEMON_NAMES = [{
     zh: "差不多娃娃",
   },
   number: 531,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "praktibalk",
@@ -4824,6 +5355,7 @@ export const POKEMON_NAMES = [{
     zh: "搬运小匠",
   },
   number: 532,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "strepoli",
@@ -4833,6 +5365,7 @@ export const POKEMON_NAMES = [{
     zh: "铁骨土人",
   },
   number: 533,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "meistagrif",
@@ -4842,6 +5375,7 @@ export const POKEMON_NAMES = [{
     zh: "修建老匠",
   },
   number: 534,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "schallquap",
@@ -4851,6 +5385,7 @@ export const POKEMON_NAMES = [{
     zh: "圆蝌蚪",
   },
   number: 535,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "mebrana",
@@ -4860,6 +5395,7 @@ export const POKEMON_NAMES = [{
     zh: "蓝蟾蜍",
   },
   number: 536,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "branawarz",
@@ -4869,6 +5405,7 @@ export const POKEMON_NAMES = [{
     zh: "蟾蜍王",
   },
   number: 537,
+  pokemonTypes: ["water", "ground"],
 },{
   names: {
     de: "jiutesto",
@@ -4878,6 +5415,7 @@ export const POKEMON_NAMES = [{
     zh: "投摔鬼",
   },
   number: 538,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "karadonis",
@@ -4887,6 +5425,7 @@ export const POKEMON_NAMES = [{
     zh: "打击鬼",
   },
   number: 539,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "strawickl",
@@ -4896,6 +5435,7 @@ export const POKEMON_NAMES = [{
     zh: "虫宝包",
   },
   number: 540,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "folikon",
@@ -4905,6 +5445,7 @@ export const POKEMON_NAMES = [{
     zh: "宝包茧",
   },
   number: 541,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "matrifol",
@@ -4914,6 +5455,7 @@ export const POKEMON_NAMES = [{
     zh: "保姆虫",
   },
   number: 542,
+  pokemonTypes: ["bug", "grass"],
 },{
   names: {
     de: "toxiped",
@@ -4923,6 +5465,7 @@ export const POKEMON_NAMES = [{
     zh: "百足蜈蚣",
   },
   number: 543,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "rollum",
@@ -4932,6 +5475,7 @@ export const POKEMON_NAMES = [{
     zh: "车轮球",
   },
   number: 544,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "cerapendra",
@@ -4941,6 +5485,7 @@ export const POKEMON_NAMES = [{
     zh: "蜈蚣王",
   },
   number: 545,
+  pokemonTypes: ["bug", "poison"],
 },{
   names: {
     de: "waumboll",
@@ -4950,6 +5495,7 @@ export const POKEMON_NAMES = [{
     zh: "木棉球",
   },
   number: 546,
+  pokemonTypes: ["grass", "fairy"],
 },{
   names: {
     de: "elfun",
@@ -4959,6 +5505,7 @@ export const POKEMON_NAMES = [{
     zh: "风妖精",
   },
   number: 547,
+  pokemonTypes: ["grass", "fairy"],
 },{
   names: {
     de: "lilminip",
@@ -4968,6 +5515,7 @@ export const POKEMON_NAMES = [{
     zh: "百合根娃娃",
   },
   number: 548,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "dressella",
@@ -4977,6 +5525,7 @@ export const POKEMON_NAMES = [{
     zh: "裙儿小姐",
   },
   number: 549,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "barschuft",
@@ -4986,6 +5535,7 @@ export const POKEMON_NAMES = [{
     zh: "野蛮鲈鱼",
   },
   number: 550,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "ganovil",
@@ -4995,6 +5545,7 @@ export const POKEMON_NAMES = [{
     zh: "黑眼鳄",
   },
   number: 551,
+  pokemonTypes: ["ground", "dark"],
 },{
   names: {
     de: "rokkaiman",
@@ -5004,6 +5555,7 @@ export const POKEMON_NAMES = [{
     zh: "混混鳄",
   },
   number: 552,
+  pokemonTypes: ["ground", "dark"],
 },{
   names: {
     de: "rabigator",
@@ -5013,6 +5565,7 @@ export const POKEMON_NAMES = [{
     zh: "流氓鳄",
   },
   number: 553,
+  pokemonTypes: ["ground", "dark"],
 },{
   names: {
     de: "flampion",
@@ -5022,6 +5575,7 @@ export const POKEMON_NAMES = [{
     zh: "火红不倒翁",
   },
   number: 554,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "flampivian",
@@ -5031,6 +5585,7 @@ export const POKEMON_NAMES = [{
     zh: "达摩狒狒",
   },
   number: 555,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "maracamba",
@@ -5040,6 +5595,7 @@ export const POKEMON_NAMES = [{
     zh: "沙铃仙人掌",
   },
   number: 556,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "lithomith",
@@ -5049,6 +5605,7 @@ export const POKEMON_NAMES = [{
     zh: "石居蟹",
   },
   number: 557,
+  pokemonTypes: ["bug", "rock"],
 },{
   names: {
     de: "castellith",
@@ -5058,6 +5615,7 @@ export const POKEMON_NAMES = [{
     zh: "岩殿居蟹",
   },
   number: 558,
+  pokemonTypes: ["bug", "rock"],
 },{
   names: {
     de: "zurrokex",
@@ -5067,6 +5625,7 @@ export const POKEMON_NAMES = [{
     zh: "滑滑小子",
   },
   number: 559,
+  pokemonTypes: ["dark", "fighting"],
 },{
   names: {
     de: "irokex",
@@ -5076,6 +5635,7 @@ export const POKEMON_NAMES = [{
     zh: "头巾混混",
   },
   number: 560,
+  pokemonTypes: ["dark", "fighting"],
 },{
   names: {
     de: "symvolara",
@@ -5085,6 +5645,7 @@ export const POKEMON_NAMES = [{
     zh: "象征鸟",
   },
   number: 561,
+  pokemonTypes: ["psychic", "flying"],
 },{
   names: {
     de: "makabaja",
@@ -5094,6 +5655,7 @@ export const POKEMON_NAMES = [{
     zh: "哭哭面具",
   },
   number: 562,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "echnatoll",
@@ -5103,6 +5665,7 @@ export const POKEMON_NAMES = [{
     zh: "迭失棺",
   },
   number: 563,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "galapaflos",
@@ -5112,6 +5675,7 @@ export const POKEMON_NAMES = [{
     zh: "原盖海龟",
   },
   number: 564,
+  pokemonTypes: ["water", "rock"],
 },{
   names: {
     de: "karippas",
@@ -5121,6 +5685,7 @@ export const POKEMON_NAMES = [{
     zh: "肋骨海龟",
   },
   number: 565,
+  pokemonTypes: ["water", "rock"],
 },{
   names: {
     de: "flapteryx",
@@ -5130,6 +5695,7 @@ export const POKEMON_NAMES = [{
     zh: "始祖小鸟",
   },
   number: 566,
+  pokemonTypes: ["rock", "flying"],
 },{
   names: {
     de: "aeropteryx",
@@ -5139,6 +5705,7 @@ export const POKEMON_NAMES = [{
     zh: "始祖大鸟",
   },
   number: 567,
+  pokemonTypes: ["rock", "flying"],
 },{
   names: {
     de: "unratütox",
@@ -5148,6 +5715,7 @@ export const POKEMON_NAMES = [{
     zh: "破破袋",
   },
   number: 568,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "deponitox",
@@ -5157,6 +5725,7 @@ export const POKEMON_NAMES = [{
     zh: "灰尘山",
   },
   number: 569,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "zorua",
@@ -5166,6 +5735,7 @@ export const POKEMON_NAMES = [{
     zh: "索罗亚",
   },
   number: 570,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "zoroark",
@@ -5175,6 +5745,7 @@ export const POKEMON_NAMES = [{
     zh: "索罗亚克",
   },
   number: 571,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "picochilla",
@@ -5184,6 +5755,7 @@ export const POKEMON_NAMES = [{
     zh: "泡沫栗鼠",
   },
   number: 572,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "chillabell",
@@ -5193,6 +5765,7 @@ export const POKEMON_NAMES = [{
     zh: "奇诺栗鼠",
   },
   number: 573,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "mollimorba",
@@ -5202,6 +5775,7 @@ export const POKEMON_NAMES = [{
     zh: "哥德宝宝",
   },
   number: 574,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "hypnomorba",
@@ -5211,6 +5785,7 @@ export const POKEMON_NAMES = [{
     zh: "哥德小童",
   },
   number: 575,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "morbitesse",
@@ -5220,6 +5795,7 @@ export const POKEMON_NAMES = [{
     zh: "哥德小姐",
   },
   number: 576,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "monozyto",
@@ -5229,6 +5805,7 @@ export const POKEMON_NAMES = [{
     zh: "单卵细胞球",
   },
   number: 577,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "mitodos",
@@ -5238,6 +5815,7 @@ export const POKEMON_NAMES = [{
     zh: "双卵细胞球",
   },
   number: 578,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "zytomega",
@@ -5247,6 +5825,7 @@ export const POKEMON_NAMES = [{
     zh: "人造细胞卵",
   },
   number: 579,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "piccolente",
@@ -5256,6 +5835,7 @@ export const POKEMON_NAMES = [{
     zh: "鸭宝宝",
   },
   number: 580,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "swaroness",
@@ -5265,6 +5845,7 @@ export const POKEMON_NAMES = [{
     zh: "舞天鹅",
   },
   number: 581,
+  pokemonTypes: ["water", "flying"],
 },{
   names: {
     de: "gelatini",
@@ -5274,6 +5855,7 @@ export const POKEMON_NAMES = [{
     zh: "迷你冰",
   },
   number: 582,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "gelatroppo",
@@ -5283,6 +5865,7 @@ export const POKEMON_NAMES = [{
     zh: "多多冰",
   },
   number: 583,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "gelatwino",
@@ -5292,6 +5875,7 @@ export const POKEMON_NAMES = [{
     zh: "双倍多多冰",
   },
   number: 584,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "sesokitz",
@@ -5301,6 +5885,7 @@ export const POKEMON_NAMES = [{
     zh: "四季鹿",
   },
   number: 585,
+  pokemonTypes: ["normal", "grass"],
 },{
   names: {
     de: "kronjuwild",
@@ -5310,6 +5895,7 @@ export const POKEMON_NAMES = [{
     zh: "萌芽鹿",
   },
   number: 586,
+  pokemonTypes: ["normal", "grass"],
 },{
   names: {
     de: "emolga",
@@ -5319,6 +5905,7 @@ export const POKEMON_NAMES = [{
     zh: "电飞鼠",
   },
   number: 587,
+  pokemonTypes: ["electric", "flying"],
 },{
   names: {
     de: "laukaps",
@@ -5328,6 +5915,7 @@ export const POKEMON_NAMES = [{
     zh: "盖盖虫",
   },
   number: 588,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "cavalanzas",
@@ -5337,6 +5925,7 @@ export const POKEMON_NAMES = [{
     zh: "骑士蜗牛",
   },
   number: 589,
+  pokemonTypes: ["bug", "steel"],
 },{
   names: {
     de: "tarnpignon",
@@ -5346,6 +5935,7 @@ export const POKEMON_NAMES = [{
     zh: "哎呀球菇",
   },
   number: 590,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "hutsassa",
@@ -5355,6 +5945,7 @@ export const POKEMON_NAMES = [{
     zh: "败露球菇",
   },
   number: 591,
+  pokemonTypes: ["grass", "poison"],
 },{
   names: {
     de: "quabbel",
@@ -5364,6 +5955,7 @@ export const POKEMON_NAMES = [{
     zh: "轻飘飘",
   },
   number: 592,
+  pokemonTypes: ["water", "ghost"],
 },{
   names: {
     de: "apoquallyp",
@@ -5373,6 +5965,7 @@ export const POKEMON_NAMES = [{
     zh: "胖嘟嘟",
   },
   number: 593,
+  pokemonTypes: ["water", "ghost"],
 },{
   names: {
     de: "mamolida",
@@ -5382,6 +5975,7 @@ export const POKEMON_NAMES = [{
     zh: "保姆曼波",
   },
   number: 594,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "wattzapf",
@@ -5391,6 +5985,7 @@ export const POKEMON_NAMES = [{
     zh: "电电虫",
   },
   number: 595,
+  pokemonTypes: ["bug", "electric"],
 },{
   names: {
     de: "voltula",
@@ -5400,6 +5995,7 @@ export const POKEMON_NAMES = [{
     zh: "电蜘蛛",
   },
   number: 596,
+  pokemonTypes: ["bug", "electric"],
 },{
   names: {
     de: "kastadur",
@@ -5409,6 +6005,7 @@ export const POKEMON_NAMES = [{
     zh: "种子铁球",
   },
   number: 597,
+  pokemonTypes: ["grass", "steel"],
 },{
   names: {
     de: "tentantel",
@@ -5418,6 +6015,7 @@ export const POKEMON_NAMES = [{
     zh: "坚果哑铃",
   },
   number: 598,
+  pokemonTypes: ["grass", "steel"],
 },{
   names: {
     de: "klikk",
@@ -5427,6 +6025,7 @@ export const POKEMON_NAMES = [{
     zh: "齿轮儿",
   },
   number: 599,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "kliklak",
@@ -5436,6 +6035,7 @@ export const POKEMON_NAMES = [{
     zh: "齿轮组",
   },
   number: 600,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "klikdiklak",
@@ -5445,6 +6045,7 @@ export const POKEMON_NAMES = [{
     zh: "齿轮怪",
   },
   number: 601,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "zapplardin",
@@ -5454,6 +6055,7 @@ export const POKEMON_NAMES = [{
     zh: "麻麻小鱼",
   },
   number: 602,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "zapplalek",
@@ -5463,6 +6065,7 @@ export const POKEMON_NAMES = [{
     zh: "麻麻鳗",
   },
   number: 603,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "zapplarang",
@@ -5472,6 +6075,7 @@ export const POKEMON_NAMES = [{
     zh: "麻麻鳗鱼王",
   },
   number: 604,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "pygraulon",
@@ -5481,6 +6085,7 @@ export const POKEMON_NAMES = [{
     zh: "小灰怪",
   },
   number: 605,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "megalon",
@@ -5490,6 +6095,7 @@ export const POKEMON_NAMES = [{
     zh: "大宇怪",
   },
   number: 606,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "lichtel",
@@ -5499,6 +6105,7 @@ export const POKEMON_NAMES = [{
     zh: "烛光灵",
   },
   number: 607,
+  pokemonTypes: ["ghost", "fire"],
 },{
   names: {
     de: "laternecto",
@@ -5508,6 +6115,7 @@ export const POKEMON_NAMES = [{
     zh: "灯火幽灵",
   },
   number: 608,
+  pokemonTypes: ["ghost", "fire"],
 },{
   names: {
     de: "skelabra",
@@ -5517,6 +6125,7 @@ export const POKEMON_NAMES = [{
     zh: "水晶灯火灵",
   },
   number: 609,
+  pokemonTypes: ["ghost", "fire"],
 },{
   names: {
     de: "milza",
@@ -5526,6 +6135,7 @@ export const POKEMON_NAMES = [{
     zh: "牙牙",
   },
   number: 610,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "sharfax",
@@ -5535,6 +6145,7 @@ export const POKEMON_NAMES = [{
     zh: "斧牙龙",
   },
   number: 611,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "maxax",
@@ -5544,6 +6155,7 @@ export const POKEMON_NAMES = [{
     zh: "双斧战龙",
   },
   number: 612,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "petznief",
@@ -5553,6 +6165,7 @@ export const POKEMON_NAMES = [{
     zh: "喷嚏熊",
   },
   number: 613,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "siberio",
@@ -5562,6 +6175,7 @@ export const POKEMON_NAMES = [{
     zh: "冻原熊",
   },
   number: 614,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "frigometri",
@@ -5571,6 +6185,7 @@ export const POKEMON_NAMES = [{
     zh: "几何雪花",
   },
   number: 615,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "schnuthelm",
@@ -5580,6 +6195,7 @@ export const POKEMON_NAMES = [{
     zh: "小嘴蜗",
   },
   number: 616,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "hydragil",
@@ -5589,6 +6205,7 @@ export const POKEMON_NAMES = [{
     zh: "敏捷虫",
   },
   number: 617,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "flunschlik",
@@ -5598,6 +6215,7 @@ export const POKEMON_NAMES = [{
     zh: "泥巴鱼",
   },
   number: 618,
+  pokemonTypes: ["ground", "electric"],
 },{
   names: {
     de: "lin-fu",
@@ -5607,6 +6225,7 @@ export const POKEMON_NAMES = [{
     zh: "功夫鼬",
   },
   number: 619,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "wie-shu",
@@ -5616,6 +6235,7 @@ export const POKEMON_NAMES = [{
     zh: "师父鼬",
   },
   number: 620,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "shardrago",
@@ -5625,6 +6245,7 @@ export const POKEMON_NAMES = [{
     zh: "赤面龙",
   },
   number: 621,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "golbit",
@@ -5634,6 +6255,7 @@ export const POKEMON_NAMES = [{
     zh: "泥偶小人",
   },
   number: 622,
+  pokemonTypes: ["ground", "ghost"],
 },{
   names: {
     de: "golgantes",
@@ -5643,6 +6265,7 @@ export const POKEMON_NAMES = [{
     zh: "泥偶巨人",
   },
   number: 623,
+  pokemonTypes: ["ground", "ghost"],
 },{
   names: {
     de: "gladiantri",
@@ -5652,6 +6275,7 @@ export const POKEMON_NAMES = [{
     zh: "驹刀小兵",
   },
   number: 624,
+  pokemonTypes: ["dark", "steel"],
 },{
   names: {
     de: "caesurio",
@@ -5661,6 +6285,7 @@ export const POKEMON_NAMES = [{
     zh: "劈斩司令",
   },
   number: 625,
+  pokemonTypes: ["dark", "steel"],
 },{
   names: {
     de: "bisofank",
@@ -5670,6 +6295,7 @@ export const POKEMON_NAMES = [{
     zh: "爆炸头水牛",
   },
   number: 626,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "geronimatz",
@@ -5679,6 +6305,7 @@ export const POKEMON_NAMES = [{
     zh: "毛头小鹰",
   },
   number: 627,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "washakwil",
@@ -5688,6 +6315,7 @@ export const POKEMON_NAMES = [{
     zh: "勇士雄鹰",
   },
   number: 628,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "skallyk",
@@ -5697,6 +6325,7 @@ export const POKEMON_NAMES = [{
     zh: "秃鹰丫头",
   },
   number: 629,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "grypheldis",
@@ -5706,6 +6335,7 @@ export const POKEMON_NAMES = [{
     zh: "秃鹰娜",
   },
   number: 630,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "furnifraß",
@@ -5715,6 +6345,7 @@ export const POKEMON_NAMES = [{
     zh: "熔蚁兽",
   },
   number: 631,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "fermicula",
@@ -5724,6 +6355,7 @@ export const POKEMON_NAMES = [{
     zh: "铁蚁",
   },
   number: 632,
+  pokemonTypes: ["bug", "steel"],
 },{
   names: {
     de: "kapuno",
@@ -5733,6 +6365,7 @@ export const POKEMON_NAMES = [{
     zh: "单首龙",
   },
   number: 633,
+  pokemonTypes: ["dark", "dragon"],
 },{
   names: {
     de: "duodino",
@@ -5742,6 +6375,7 @@ export const POKEMON_NAMES = [{
     zh: "双首暴龙",
   },
   number: 634,
+  pokemonTypes: ["dark", "dragon"],
 },{
   names: {
     de: "trikephalo",
@@ -5751,6 +6385,7 @@ export const POKEMON_NAMES = [{
     zh: "三首恶龙",
   },
   number: 635,
+  pokemonTypes: ["dark", "dragon"],
 },{
   names: {
     de: "ignivor",
@@ -5760,6 +6395,7 @@ export const POKEMON_NAMES = [{
     zh: "燃烧虫",
   },
   number: 636,
+  pokemonTypes: ["bug", "fire"],
 },{
   names: {
     de: "ramoth",
@@ -5769,6 +6405,7 @@ export const POKEMON_NAMES = [{
     zh: "火神蛾",
   },
   number: 637,
+  pokemonTypes: ["bug", "fire"],
 },{
   names: {
     de: "kobalium",
@@ -5778,6 +6415,7 @@ export const POKEMON_NAMES = [{
     zh: "勾帕路翁",
   },
   number: 638,
+  pokemonTypes: ["steel", "fighting"],
 },{
   names: {
     de: "terrakium",
@@ -5787,6 +6425,7 @@ export const POKEMON_NAMES = [{
     zh: "代拉基翁",
   },
   number: 639,
+  pokemonTypes: ["rock", "fighting"],
 },{
   names: {
     de: "viridium",
@@ -5796,6 +6435,7 @@ export const POKEMON_NAMES = [{
     zh: "毕力吉翁",
   },
   number: 640,
+  pokemonTypes: ["grass", "fighting"],
 },{
   names: {
     de: "boreos",
@@ -5805,6 +6445,7 @@ export const POKEMON_NAMES = [{
     zh: "龙卷云",
   },
   number: 641,
+  pokemonTypes: ["flying", ""],
 },{
   names: {
     de: "voltolos",
@@ -5814,6 +6455,7 @@ export const POKEMON_NAMES = [{
     zh: "雷电云",
   },
   number: 642,
+  pokemonTypes: ["electric", "flying"],
 },{
   names: {
     de: "reshiram",
@@ -5823,6 +6465,7 @@ export const POKEMON_NAMES = [{
     zh: "莱希拉姆",
   },
   number: 643,
+  pokemonTypes: ["dragon", "fire"],
 },{
   names: {
     de: "zekrom",
@@ -5832,6 +6475,7 @@ export const POKEMON_NAMES = [{
     zh: "捷克罗姆",
   },
   number: 644,
+  pokemonTypes: ["dragon", "electric"],
 },{
   names: {
     de: "demeteros",
@@ -5841,6 +6485,7 @@ export const POKEMON_NAMES = [{
     zh: "土地云",
   },
   number: 645,
+  pokemonTypes: ["ground", "flying"],
 },{
   names: {
     de: "kyurem",
@@ -5850,6 +6495,7 @@ export const POKEMON_NAMES = [{
     zh: "酋雷姆",
   },
   number: 646,
+  pokemonTypes: ["dragon", "ice"],
 },{
   names: {
     de: "keldeo",
@@ -5859,6 +6505,7 @@ export const POKEMON_NAMES = [{
     zh: "凯路迪欧",
   },
   number: 647,
+  pokemonTypes: ["water", "fighting"],
 },{
   names: {
     de: "meloetta",
@@ -5868,6 +6515,7 @@ export const POKEMON_NAMES = [{
     zh: "美洛耶塔",
   },
   number: 648,
+  pokemonTypes: ["normal", "psychic"],
 },{
   names: {
     de: "genesect",
@@ -5877,6 +6525,7 @@ export const POKEMON_NAMES = [{
     zh: "盖诺赛克特",
   },
   number: 649,
+  pokemonTypes: ["bug", "steel"],
 },{
   names: {
     de: "igamaro",
@@ -5886,6 +6535,7 @@ export const POKEMON_NAMES = [{
     zh: "哈力栗",
   },
   number: 650,
+ pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "igastarnish",
@@ -5895,6 +6545,7 @@ export const POKEMON_NAMES = [{
     zh: "胖胖哈力",
   },
   number: 651,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "brigaron",
@@ -5904,6 +6555,7 @@ export const POKEMON_NAMES = [{
     zh: "布里卡隆",
   },
   number: 652,
+  pokemonTypes: ["grass", "fighting"],
 },{
   names: {
     de: "fynx",
@@ -5913,6 +6565,7 @@ export const POKEMON_NAMES = [{
     zh: "火狐狸",
   },
   number: 653,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "rutena",
@@ -5922,6 +6575,7 @@ export const POKEMON_NAMES = [{
     zh: "长尾火狐",
   },
   number: 654,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "fennexis",
@@ -5931,6 +6585,7 @@ export const POKEMON_NAMES = [{
     zh: "妖火红狐",
   },
   number: 655,
+  pokemonTypes: ["fire", "psychic"],
 },{
   names: {
     de: "froxy",
@@ -5940,6 +6595,7 @@ export const POKEMON_NAMES = [{
     zh: "呱呱泡蛙",
   },
   number: 656,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "amphizel",
@@ -5949,6 +6605,7 @@ export const POKEMON_NAMES = [{
     zh: "呱头蛙",
   },
   number: 657,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "quajutsu",
@@ -5958,6 +6615,7 @@ export const POKEMON_NAMES = [{
     zh: "甲贺忍蛙",
   },
   number: 658,
+  pokemonTypes: ["water", "dark"],
 },{
   names: {
     de: "scoppel",
@@ -5967,6 +6625,7 @@ export const POKEMON_NAMES = [{
     zh: "掘掘兔",
   },
   number: 659,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "grebbit",
@@ -5976,6 +6635,7 @@ export const POKEMON_NAMES = [{
     zh: "掘地兔",
   },
   number: 660,
+  pokemonTypes: ["normal", "ground"],
 },{
   names: {
     de: "dartiri",
@@ -5985,6 +6645,7 @@ export const POKEMON_NAMES = [{
     zh: "小箭雀",
   },
   number: 661,
+pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "dartignis",
@@ -5994,6 +6655,7 @@ export const POKEMON_NAMES = [{
     zh: "火箭雀",
   },
   number: 662,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "fiaro",
@@ -6003,6 +6665,7 @@ export const POKEMON_NAMES = [{
     zh: "烈箭鹰",
   },
   number: 663,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "purmel",
@@ -6012,6 +6675,7 @@ export const POKEMON_NAMES = [{
     zh: "粉蝶虫",
   },
   number: 664,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "puponcho",
@@ -6021,6 +6685,7 @@ export const POKEMON_NAMES = [{
     zh: "粉蝶蛹",
   },
   number: 665,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "vivillon",
@@ -6030,6 +6695,7 @@ export const POKEMON_NAMES = [{
     zh: "彩粉蝶",
   },
   number: 666,
+  pokemonTypes: ["bug", "flying"],
 },{
   names: {
     de: "leufeo",
@@ -6039,6 +6705,7 @@ export const POKEMON_NAMES = [{
     zh: "小狮狮",
   },
   number: 667,
+  pokemonTypes: ["fire", "normal"],
 },{
   names: {
     de: "pyroleo",
@@ -6048,6 +6715,7 @@ export const POKEMON_NAMES = [{
     zh: "火炎狮",
   },
   number: 668,
+  pokemonTypes: ["fire", "normal"],
 },{
   names: {
     de: "flabébé",
@@ -6057,6 +6725,7 @@ export const POKEMON_NAMES = [{
     zh: "花蓓蓓",
   },
   number: 669,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "floette",
@@ -6066,6 +6735,7 @@ export const POKEMON_NAMES = [{
     zh: "花叶蒂",
   },
   number: 670,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "florges",
@@ -6075,6 +6745,7 @@ export const POKEMON_NAMES = [{
     zh: "花洁夫人",
   },
   number: 671,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "mähikel",
@@ -6084,6 +6755,7 @@ export const POKEMON_NAMES = [{
     zh: "坐骑小羊",
   },
   number: 672,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "chevrumm",
@@ -6093,6 +6765,7 @@ export const POKEMON_NAMES = [{
     zh: "坐骑山羊",
   },
   number: 673,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "pam-pam",
@@ -6102,6 +6775,7 @@ export const POKEMON_NAMES = [{
     zh: "顽皮熊猫",
   },
   number: 674,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "pandagro",
@@ -6111,6 +6785,7 @@ export const POKEMON_NAMES = [{
     zh: "霸道熊猫",
   },
   number: 675,
+  pokemonTypes: ["fighting", "dark"],
 },{
   names: {
     de: "coiffwaff",
@@ -6120,6 +6795,7 @@ export const POKEMON_NAMES = [{
     zh: "多丽米亚",
   },
   number: 676,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "psiau",
@@ -6129,6 +6805,7 @@ export const POKEMON_NAMES = [{
     zh: "妙喵",
   },
   number: 677,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "psiaugon",
@@ -6138,6 +6815,7 @@ export const POKEMON_NAMES = [{
     zh: "超能妙喵",
   },
   number: 678,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "gramokles",
@@ -6147,6 +6825,7 @@ export const POKEMON_NAMES = [{
     zh: "独剑鞘",
   },
   number: 679,
+  pokemonTypes: ["steel", "ghost"],
 },{
   names: {
     de: "duokles",
@@ -6156,6 +6835,7 @@ export const POKEMON_NAMES = [{
     zh: "双剑鞘",
   },
   number: 680,
+  pokemonTypes: ["steel", "ghost"],
 },{
   names: {
     de: "durengard",
@@ -6165,6 +6845,7 @@ export const POKEMON_NAMES = [{
     zh: "坚盾剑怪",
   },
   number: 681,
+  pokemonTypes: ["steel", "ghost"],
 },{
   names: {
     de: "parfi",
@@ -6174,6 +6855,7 @@ export const POKEMON_NAMES = [{
     zh: "粉香香",
   },
   number: 682,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "parfinesse",
@@ -6183,6 +6865,7 @@ export const POKEMON_NAMES = [{
     zh: "芳香精",
   },
   number: 683,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "flauschling",
@@ -6192,6 +6875,7 @@ export const POKEMON_NAMES = [{
     zh: "绵绵泡芙",
   },
   number: 684,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "sabbaione",
@@ -6201,6 +6885,7 @@ export const POKEMON_NAMES = [{
     zh: "胖甜妮",
   },
   number: 685,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "iscalar",
@@ -6210,6 +6895,7 @@ export const POKEMON_NAMES = [{
     zh: "好啦鱿",
   },
   number: 686,
+  pokemonTypes: ["dark", "psychic"],
 },{
   names: {
     de: "calamanero",
@@ -6219,6 +6905,7 @@ export const POKEMON_NAMES = [{
     zh: "乌贼王",
   },
   number: 687,
+  pokemonTypes: ["dark", "psychic"],
 },{
   names: {
     de: "bithora",
@@ -6228,6 +6915,7 @@ export const POKEMON_NAMES = [{
     zh: "龟脚脚",
   },
   number: 688,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "thanathora",
@@ -6237,6 +6925,7 @@ export const POKEMON_NAMES = [{
     zh: "龟足巨铠",
   },
   number: 689,
+  pokemonTypes: ["rock", "water"],
 },{
   names: {
     de: "algitt",
@@ -6246,6 +6935,7 @@ export const POKEMON_NAMES = [{
     zh: "垃垃藻",
   },
   number: 690,
+  pokemonTypes: ["poison", "water"],
 },{
   names: {
     de: "tandrak",
@@ -6255,6 +6945,7 @@ export const POKEMON_NAMES = [{
     zh: "毒藻龙",
   },
   number: 691,
+  pokemonTypes: ["poison", "dragon"],
 },{
   names: {
     de: "scampisto",
@@ -6264,6 +6955,7 @@ export const POKEMON_NAMES = [{
     zh: "铁臂枪虾",
   },
   number: 692,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "wummer",
@@ -6273,6 +6965,7 @@ export const POKEMON_NAMES = [{
     zh: "钢炮臂虾",
   },
   number: 693,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "eguana",
@@ -6282,6 +6975,7 @@ export const POKEMON_NAMES = [{
     zh: "伞电蜥",
   },
   number: 694,
+  pokemonTypes: ["electric", "normal"],
 },{
   names: {
     de: "elezard",
@@ -6291,6 +6985,7 @@ export const POKEMON_NAMES = [{
     zh: "光电伞蜥",
   },
   number: 695,
+  pokemonTypes: ["electric", "normal"],
 },{
   names: {
     de: "balgoras",
@@ -6299,7 +6994,8 @@ export const POKEMON_NAMES = [{
     ja: "チゴラス",
     zh: "宝宝暴龙",
   },
-  number: 696,
+  number: 696,  
+  pokemonTypes: ["rock", "dragon"],
 },{
   names: {
     de: "monargoras",
@@ -6309,6 +7005,7 @@ export const POKEMON_NAMES = [{
     zh: "怪颚龙",
   },
   number: 697,
+  pokemonTypes: ["rock", "dragon"],
 },{
   names: {
     de: "amarino",
@@ -6318,6 +7015,7 @@ export const POKEMON_NAMES = [{
     zh: "冰雪龙",
   },
   number: 698,
+  pokemonTypes: ["rock", "ice"],
 },{
   names: {
     de: "amagarga",
@@ -6327,6 +7025,7 @@ export const POKEMON_NAMES = [{
     zh: "冰雪巨龙",
   },
   number: 699,
+  pokemonTypes: ["rock", "ice"],
 },{
   names: {
     de: "feelinara",
@@ -6336,6 +7035,7 @@ export const POKEMON_NAMES = [{
     zh: "仙子伊布",
   },
   number: 700,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "resladero",
@@ -6345,6 +7045,7 @@ export const POKEMON_NAMES = [{
     zh: "摔角鹰人",
   },
   number: 701,
+  pokemonTypes: ["fighting", "flying"],
 },{
   names: {
     de: "dedenne",
@@ -6354,6 +7055,7 @@ export const POKEMON_NAMES = [{
     zh: "咚咚鼠",
   },
   number: 702,
+  pokemonTypes: ["electric", "fairy"],
 },{
   names: {
     de: "rocara",
@@ -6363,6 +7065,7 @@ export const POKEMON_NAMES = [{
     zh: "小碎钻",
   },
   number: 703,
+  pokemonTypes: ["rock", "fairy"],
 },{
   names: {
     de: "viscora",
@@ -6371,7 +7074,8 @@ export const POKEMON_NAMES = [{
     ja: "ヌメラ",
     zh: "黏黏宝",
   },
-  number: 704,
+  number: 704,  
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "viscargot",
@@ -6381,6 +7085,7 @@ export const POKEMON_NAMES = [{
     zh: "黏美儿",
   },
   number: 705,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "viscogon",
@@ -6390,6 +7095,7 @@ export const POKEMON_NAMES = [{
     zh: "黏美龙",
   },
   number: 706,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "clavion",
@@ -6399,6 +7105,7 @@ export const POKEMON_NAMES = [{
     zh: "钥圈儿",
   },
   number: 707,
+  pokemonTypes: ["steel", "fairy"],
 },{
   names: {
     de: "paragoni",
@@ -6408,6 +7115,7 @@ export const POKEMON_NAMES = [{
     zh: "小木灵",
   },
   number: 708,
+  pokemonTypes: ["ghost", "grass"],
 },{
   names: {
     de: "trombork",
@@ -6417,6 +7125,7 @@ export const POKEMON_NAMES = [{
     zh: "朽木妖",
   },
   number: 709,
+  pokemonTypes: ["ghost", "grass"],
 },{
   names: {
     de: "irrbis",
@@ -6426,6 +7135,7 @@ export const POKEMON_NAMES = [{
     zh: "南瓜精",
   },
   number: 710,
+  pokemonTypes: ["ghost", "grass"],
 },{
   names: {
     de: "pumpdjinn",
@@ -6435,6 +7145,7 @@ export const POKEMON_NAMES = [{
     zh: "南瓜怪人",
   },
   number: 711,
+  pokemonTypes: ["ghost", "grass"],
 },{
   names: {
     de: "arktip",
@@ -6444,6 +7155,7 @@ export const POKEMON_NAMES = [{
     zh: "冰宝",
   },
   number: 712,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "arktilas",
@@ -6453,6 +7165,7 @@ export const POKEMON_NAMES = [{
     zh: "冰岩怪",
   },
   number: 713,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "ef-em",
@@ -6462,6 +7175,7 @@ export const POKEMON_NAMES = [{
     zh: "嗡蝠",
   },
   number: 714,
+  pokemonTypes: ["flying", "dragon"],
 },{
   names: {
     de: "uhafnir",
@@ -6471,6 +7185,7 @@ export const POKEMON_NAMES = [{
     zh: "音波龙",
   },
   number: 715,
+  pokemonTypes: ["flying", "dragon"],
 },{
   names: {
     de: "xerneas",
@@ -6480,6 +7195,7 @@ export const POKEMON_NAMES = [{
     zh: "哲尔尼亚斯",
   },
   number: 716,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "yveltal",
@@ -6489,6 +7205,7 @@ export const POKEMON_NAMES = [{
     zh: "伊裴尔塔尔",
   },
   number: 717,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "zygarde",
@@ -6498,6 +7215,7 @@ export const POKEMON_NAMES = [{
     zh: "基格尔德",
   },
   number: 718,
+  pokemonTypes: ["dragon", "ground"],
 },{
   names: {
     de: "diancie",
@@ -6507,6 +7225,7 @@ export const POKEMON_NAMES = [{
     zh: "蒂安希",
   },
   number: 719,
+  pokemonTypes: ["rock", "fairy"],
 },{
   names: {
     de: "hoopa",
@@ -6516,6 +7235,7 @@ export const POKEMON_NAMES = [{
     zh: "胡帕",
   },
   number: 720,
+  pokemonTypes: ["psychic", "ghost"],
 },{
   names: {
     de: "volcanion",
@@ -6525,6 +7245,7 @@ export const POKEMON_NAMES = [{
     zh: "波尔凯尼恩",
   },
   number: 721,
+  pokemonTypes: ["fire", "water"],
 },{
   names: {
     de: "bauz",
@@ -6534,6 +7255,7 @@ export const POKEMON_NAMES = [{
     zh: "木木枭",
   },
   number: 722,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "arboretoss",
@@ -6543,6 +7265,7 @@ export const POKEMON_NAMES = [{
     zh: "投羽枭",
   },
   number: 723,
+  pokemonTypes: ["grass", "flying"],
 },{
   names: {
     de: "silvarro",
@@ -6552,6 +7275,7 @@ export const POKEMON_NAMES = [{
     zh: "狙射树枭",
   },
   number: 724,
+  pokemonTypes: ["grass", "ghost"],
 },{
   names: {
     de: "flamiau",
@@ -6561,6 +7285,7 @@ export const POKEMON_NAMES = [{
     zh: "火斑喵",
   },
   number: 725,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "miezunder",
@@ -6570,6 +7295,7 @@ export const POKEMON_NAMES = [{
     zh: "炎热喵",
   },
   number: 726,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "fuegro",
@@ -6579,6 +7305,7 @@ export const POKEMON_NAMES = [{
     zh: "炽焰咆哮虎",
   },
   number: 727,
+  pokemonTypes: ["fire", "dark"],
 },{
   names: {
     de: "robball",
@@ -6588,6 +7315,7 @@ export const POKEMON_NAMES = [{
     zh: "球球海狮",
   },
   number: 728,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "marikeck",
@@ -6597,6 +7325,7 @@ export const POKEMON_NAMES = [{
     zh: "花漾海狮",
   },
   number: 729,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "primarene",
@@ -6606,6 +7335,7 @@ export const POKEMON_NAMES = [{
     zh: "西狮海壬",
   },
   number: 730,
+  pokemonTypes: ["water", "fairy"],
 },{
   names: {
     de: "peppeck",
@@ -6615,6 +7345,7 @@ export const POKEMON_NAMES = [{
     zh: "小笃儿",
   },
   number: 731,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "trompeck",
@@ -6624,6 +7355,7 @@ export const POKEMON_NAMES = [{
     zh: "喇叭啄鸟",
   },
   number: 732,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "tukanon",
@@ -6633,6 +7365,7 @@ export const POKEMON_NAMES = [{
     zh: "铳嘴大鸟",
   },
   number: 733,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "mangunior",
@@ -6642,6 +7375,7 @@ export const POKEMON_NAMES = [{
     zh: "猫鼬少",
   },
   number: 734,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "manguspektor",
@@ -6651,6 +7385,7 @@ export const POKEMON_NAMES = [{
     zh: "猫鼬探长",
   },
   number: 735,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "mabula",
@@ -6660,6 +7395,7 @@ export const POKEMON_NAMES = [{
     zh: "强颚鸡母虫",
   },
   number: 736,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "akkup",
@@ -6669,6 +7405,7 @@ export const POKEMON_NAMES = [{
     zh: "虫电宝",
   },
   number: 737,
+  pokemonTypes: ["bug", "electric"],
 },{
   names: {
     de: "donarion",
@@ -6678,6 +7415,7 @@ export const POKEMON_NAMES = [{
     zh: "锹农炮虫",
   },
   number: 738,
+  pokemonTypes: ["bug", "electric"],
 },{
   names: {
     de: "krabbox",
@@ -6687,6 +7425,7 @@ export const POKEMON_NAMES = [{
     zh: "好胜蟹",
   },
   number: 739,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "krawell",
@@ -6696,6 +7435,7 @@ export const POKEMON_NAMES = [{
     zh: "好胜毛蟹",
   },
   number: 740,
+  pokemonTypes: ["fighting", "ice"],
 },{
   names: {
     de: "choreogel",
@@ -6705,6 +7445,7 @@ export const POKEMON_NAMES = [{
     zh: "花舞鸟",
   },
   number: 741,
+  pokemonTypes: ["fire", "flying"],
 },{
   names: {
     de: "wommel",
@@ -6714,6 +7455,7 @@ export const POKEMON_NAMES = [{
     zh: "萌虻",
   },
   number: 742,
+  pokemonTypes: ["bug", "fairy"],
 },{
   names: {
     de: "bandelby",
@@ -6723,6 +7465,7 @@ export const POKEMON_NAMES = [{
     zh: "蝶结萌虻",
   },
   number: 743,
+  pokemonTypes: ["bug", "fairy"],
 },{
   names: {
     de: "wuffels",
@@ -6732,6 +7475,7 @@ export const POKEMON_NAMES = [{
     zh: "岩狗狗",
   },
   number: 744,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "wolwerock",
@@ -6741,6 +7485,7 @@ export const POKEMON_NAMES = [{
     zh: "鬃岩狼人",
   },
   number: 745,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "lusardin",
@@ -6750,6 +7495,7 @@ export const POKEMON_NAMES = [{
     zh: "弱丁鱼",
   },
   number: 746,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "garstella",
@@ -6759,6 +7505,7 @@ export const POKEMON_NAMES = [{
     zh: "好坏星",
   },
   number: 747,
+  pokemonTypes: ["poison", "water"],
 },{
   names: {
     de: "aggrostella",
@@ -6768,6 +7515,7 @@ export const POKEMON_NAMES = [{
     zh: "超坏星",
   },
   number: 748,
+  pokemonTypes: ["poison", "water"],
 },{
   names: {
     de: "pampuli",
@@ -6777,6 +7525,7 @@ export const POKEMON_NAMES = [{
     zh: "泥驴仔",
   },
   number: 749,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "pampross",
@@ -6786,6 +7535,7 @@ export const POKEMON_NAMES = [{
     zh: "重泥挽马",
   },
   number: 750,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "araqua",
@@ -6795,6 +7545,7 @@ export const POKEMON_NAMES = [{
     zh: "滴蛛",
   },
   number: 751,
+  pokemonTypes: ["water", "bug"],
 },{
   names: {
     de: "aranestro",
@@ -6804,6 +7555,7 @@ export const POKEMON_NAMES = [{
     zh: "滴蛛霸",
   },
   number: 752,
+  pokemonTypes: ["water", "bug"],
 },{
   names: {
     de: "imantis",
@@ -6813,6 +7565,7 @@ export const POKEMON_NAMES = [{
     zh: "伪螳草",
   },
   number: 753,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "mantidea",
@@ -6822,6 +7575,7 @@ export const POKEMON_NAMES = [{
     zh: "兰螳花",
   },
   number: 754,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "bubungus",
@@ -6831,6 +7585,7 @@ export const POKEMON_NAMES = [{
     zh: "睡睡菇",
   },
   number: 755,
+  pokemonTypes: ["grass", "fairy"], 
 },{
   names: {
     de: "lamellux",
@@ -6840,6 +7595,7 @@ export const POKEMON_NAMES = [{
     zh: "灯罩夜菇",
   },
   number: 756,
+  pokemonTypes: ["grass", "fairy"],
 },{
   names: {
     de: "molunk",
@@ -6849,6 +7605,7 @@ export const POKEMON_NAMES = [{
     zh: "夜盗火蜥",
   },
   number: 757,
+  pokemonTypes: ["poison", "fire"],
 },{
   names: {
     de: "amfira",
@@ -6858,6 +7615,7 @@ export const POKEMON_NAMES = [{
     zh: "焰后蜥",
   },
   number: 758,
+  pokemonTypes: ["poison", "fire"],
 },{
   names: {
     de: "velursi",
@@ -6867,6 +7625,7 @@ export const POKEMON_NAMES = [{
     zh: "童偶熊",
   },
   number: 759,
+  pokemonTypes: ["normal", "fighting"],
 },{
   names: {
     de: "kosturso",
@@ -6876,6 +7635,7 @@ export const POKEMON_NAMES = [{
     zh: "穿着熊",
   },
   number: 760,
+  pokemonTypes: ["normal", "fighting"],
 },{
   names: {
     de: "frubberl",
@@ -6885,6 +7645,7 @@ export const POKEMON_NAMES = [{
     zh: "甜竹竹",
   },
   number: 761,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "frubaila",
@@ -6894,6 +7655,7 @@ export const POKEMON_NAMES = [{
     zh: "甜舞妮",
   },
   number: 762,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "fruyal",
@@ -6903,6 +7665,7 @@ export const POKEMON_NAMES = [{
     zh: "甜冷美后",
   },
   number: 763,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "curelei",
@@ -6912,6 +7675,7 @@ export const POKEMON_NAMES = [{
     zh: "花疗环环",
   },
   number: 764,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "kommandutan",
@@ -6921,6 +7685,7 @@ export const POKEMON_NAMES = [{
     zh: "智挥猩",
   },
   number: 765,
+  pokemonTypes: ["normal", "psychic"],
 },{
   names: {
     de: "quartermak",
@@ -6930,6 +7695,7 @@ export const POKEMON_NAMES = [{
     zh: "投掷猴",
   },
   number: 766,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "reißlaus",
@@ -6939,6 +7705,7 @@ export const POKEMON_NAMES = [{
     zh: "胆小虫",
   },
   number: 767,
+  pokemonTypes: ["bug", "water"],
 },{
   names: {
     de: "tectass",
@@ -6948,6 +7715,7 @@ export const POKEMON_NAMES = [{
     zh: "具甲武者",
   },
   number: 768,
+  pokemonTypes: ["bug", "water"],
 },{
   names: {
     de: "sankabuh",
@@ -6957,6 +7725,7 @@ export const POKEMON_NAMES = [{
     zh: "沙丘娃",
   },
   number: 769,
+  pokemonTypes: ["ghost", "ground"],
 },{
   names: {
     de: "colossand",
@@ -6966,6 +7735,7 @@ export const POKEMON_NAMES = [{
     zh: "噬沙堡爷",
   },
   number: 770,
+  pokemonTypes: ["ghost", "ground"],
 },{
   names: {
     de: "gufa",
@@ -6975,15 +7745,17 @@ export const POKEMON_NAMES = [{
     zh: "拳海参",
   },
   number: 771,
+  pokemonTypes: ["water", ""],
 },{
   names: {
-    de: "typ:null",
+    de: "typ: null",
     en: "type: null",
     fr: "type:0",
     ja: "タイプ：ヌル",
     zh: "属性：空",
   },
   number: 772,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "amigento",
@@ -6993,6 +7765,7 @@ export const POKEMON_NAMES = [{
     zh: "银伴战兽",
   },
   number: 773,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "meteno",
@@ -7002,6 +7775,7 @@ export const POKEMON_NAMES = [{
     zh: "小陨星",
   },
   number: 774,
+  pokemonTypes: ["rock", "flying"],
 },{
   names: {
     de: "koalelu",
@@ -7011,6 +7785,7 @@ export const POKEMON_NAMES = [{
     zh: "树枕尾熊",
   },
   number: 775,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "tortunator",
@@ -7020,6 +7795,7 @@ export const POKEMON_NAMES = [{
     zh: "爆焰龟兽",
   },
   number: 776,
+  pokemonTypes: ["fire", "dragon"],
 },{
   names: {
     de: "togedemaru",
@@ -7029,6 +7805,7 @@ export const POKEMON_NAMES = [{
     zh: "托戈德玛尔",
   },
   number: 777,
+  pokemonTypes: ["electric", "steel"],
 },{
   names: {
     de: "mimigma",
@@ -7038,6 +7815,7 @@ export const POKEMON_NAMES = [{
     zh: "谜拟丘",
   },
   number: 778,
+  pokemonTypes: ["ghost", "fairy"],
 },{
   names: {
     de: "knirfish",
@@ -7047,6 +7825,7 @@ export const POKEMON_NAMES = [{
     zh: "磨牙彩皮鱼",
   },
   number: 779,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "sen-long",
@@ -7056,6 +7835,7 @@ export const POKEMON_NAMES = [{
     zh: "老翁龙",
   },
   number: 780,
+  pokemonTypes: ["normal", "dragon"],
 },{
   names: {
     de: "moruda",
@@ -7065,6 +7845,7 @@ export const POKEMON_NAMES = [{
     zh: "破破舵轮",
   },
   number: 781,
+  pokemonTypes: ["ghost", "grass"],
 },{
   names: {
     de: "miniras",
@@ -7074,6 +7855,7 @@ export const POKEMON_NAMES = [{
     zh: "心鳞宝",
   },
   number: 782,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "mediras",
@@ -7083,6 +7865,7 @@ export const POKEMON_NAMES = [{
     zh: "鳞甲龙",
   },
   number: 783,
+  pokemonTypes: ["dragon", "fighting"],
 },{
   names: {
     de: "grandiras",
@@ -7092,6 +7875,7 @@ export const POKEMON_NAMES = [{
     zh: "杖尾鳞甲龙",
   },
   number: 784,
+  pokemonTypes: ["dragon", "fighting"],
 },{
   names: {
     de: "kapu-riki",
@@ -7101,6 +7885,7 @@ export const POKEMON_NAMES = [{
     zh: "卡璞・鸣鸣",
   },
   number: 785,
+  pokemonTypes: ["electric", "fairy"],
 },{
   names: {
     de: "kapu-fala",
@@ -7110,6 +7895,7 @@ export const POKEMON_NAMES = [{
     zh: "卡璞・蝶蝶",
   },
   number: 786,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "kapu-toro",
@@ -7119,6 +7905,7 @@ export const POKEMON_NAMES = [{
     zh: "卡璞・哞哞",
   },
   number: 787,
+  pokemonTypes: ["grass", "fairy"],
 },{
   names: {
     de: "kapu-kime",
@@ -7128,6 +7915,7 @@ export const POKEMON_NAMES = [{
     zh: "卡璞・鳍鳍",
   },
   number: 788,
+  pokemonTypes: ["water", "fairy"],
 },{
   names: {
     de: "cosmog",
@@ -7137,6 +7925,7 @@ export const POKEMON_NAMES = [{
     zh: "科斯莫古",
   },
   number: 789,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "cosmovum",
@@ -7146,6 +7935,7 @@ export const POKEMON_NAMES = [{
     zh: "科斯莫姆",
   },
   number: 790,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "solgaleo",
@@ -7155,6 +7945,7 @@ export const POKEMON_NAMES = [{
     zh: "索尔迦雷欧",
   },
   number: 791,
+  pokemonTypes: ["psychic", "steel"],
 },{
   names: {
     de: "lunala",
@@ -7164,6 +7955,7 @@ export const POKEMON_NAMES = [{
     zh: "露奈雅拉",
   },
   number: 792,
+  pokemonTypes: ["psychic", "ghost"],
 },{
   names: {
     de: "anego",
@@ -7173,6 +7965,7 @@ export const POKEMON_NAMES = [{
     zh: "虚吾伊德",
   },
   number: 793,
+  pokemonTypes: ["rock", "poison"],
 },{
   names: {
     de: "masskito",
@@ -7182,6 +7975,7 @@ export const POKEMON_NAMES = [{
     zh: "爆肌蚊",
   },
   number: 794,
+  pokemonTypes: ["bug", "fighting"],
 },{
   names: {
     de: "schabelle",
@@ -7191,6 +7985,7 @@ export const POKEMON_NAMES = [{
     zh: "费洛美螂",
   },
   number: 795,
+  pokemonTypes: ["bug", "fighting"],
 },{
   names: {
     de: "voltriant",
@@ -7200,6 +7995,7 @@ export const POKEMON_NAMES = [{
     zh: "电束木",
   },
   number: 796,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "kaguron",
@@ -7209,6 +8005,7 @@ export const POKEMON_NAMES = [{
     zh: "铁火辉夜",
   },
   number: 797,
+  pokemonTypes: ["steel", "flying"],
 },{
   names: {
     de: "katagami",
@@ -7218,6 +8015,7 @@ export const POKEMON_NAMES = [{
     zh: "纸御剑",
   },
   number: 798,
+  pokemonTypes: ["grass", "steel"],
 },{
   names: {
     de: "schlingking",
@@ -7227,6 +8025,7 @@ export const POKEMON_NAMES = [{
     zh: "恶食大王",
   },
   number: 799,
+  pokemonTypes: ["dark", "dragon"],
 },{
   names: {
     de: "necrozma",
@@ -7236,6 +8035,7 @@ export const POKEMON_NAMES = [{
     zh: "奈克洛兹玛",
   },
   number: 800,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "magearna",
@@ -7245,6 +8045,7 @@ export const POKEMON_NAMES = [{
     zh: "玛机雅娜",
   },
   number: 801,
+  pokemonTypes: ["steel", "fairy"],
 },{
   names: {
     de: "marshadow",
@@ -7254,6 +8055,7 @@ export const POKEMON_NAMES = [{
     zh: "玛夏多",
   },
   number: 802,
+  pokemonTypes: ["fighting", "ghost"],
 },{
   names: {
     de: "venicro",
@@ -7263,6 +8065,7 @@ export const POKEMON_NAMES = [{
     zh: "毒贝比",
   },
   number: 803,
+  pokemonTypes: ["poison", ""],
 },{
   names: {
     de: "agoyon",
@@ -7272,6 +8075,7 @@ export const POKEMON_NAMES = [{
     zh: "四颚针龙",
   },
   number: 804,
+  pokemonTypes: ["poison", "dragon"],
 },{
   names: {
     de: "muramura",
@@ -7281,6 +8085,7 @@ export const POKEMON_NAMES = [{
     zh: "垒磊石",
   },
   number: 805,
+  pokemonTypes: ["rock", "steel"],
 },{
   names: {
     de: "kopplosio",
@@ -7290,6 +8095,7 @@ export const POKEMON_NAMES = [{
     zh: "砰头小丑",
   },
   number: 806,
+  pokemonTypes: ["fire", "ghost"],
 },{
   names: {
     de: "zeraora",
@@ -7299,6 +8105,7 @@ export const POKEMON_NAMES = [{
     zh: "捷拉奥拉",
   },
   number: 807,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "meltan",
@@ -7308,6 +8115,7 @@ export const POKEMON_NAMES = [{
     zh: "美录坦",
   },
   number: 808,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "melmetal",
@@ -7317,6 +8125,7 @@ export const POKEMON_NAMES = [{
     zh: "美录梅塔",
   },
   number: 809,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "chimpep",
@@ -7326,6 +8135,7 @@ export const POKEMON_NAMES = [{
     zh: "敲音猴",
   },
   number: 810,
+pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "chimstix",
@@ -7335,6 +8145,7 @@ export const POKEMON_NAMES = [{
     zh: "啪咚猴",
   },
   number: 811,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "gortrom",
@@ -7344,6 +8155,7 @@ export const POKEMON_NAMES = [{
     zh: "轰擂金刚猩",
   },
   number: 812,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "hopplo",
@@ -7353,6 +8165,7 @@ export const POKEMON_NAMES = [{
     zh: "炎兔儿",
   },
   number: 813,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "kickerlo",
@@ -7362,6 +8175,7 @@ export const POKEMON_NAMES = [{
     zh: "腾蹴小将",
   },
   number: 814,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "liberlo",
@@ -7371,6 +8185,7 @@ export const POKEMON_NAMES = [{
     zh: "闪焰王牌",
   },
   number: 815,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "memmeon",
@@ -7380,6 +8195,7 @@ export const POKEMON_NAMES = [{
     zh: "泪眼蜥",
   },
   number: 816,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "phlegleon",
@@ -7389,6 +8205,7 @@ export const POKEMON_NAMES = [{
     zh: "变涩蜥",
   },
   number: 817,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "intelleon",
@@ -7398,6 +8215,7 @@ export const POKEMON_NAMES = [{
     zh: "千面避役",
   },
   number: 818,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "raffel",
@@ -7407,6 +8225,7 @@ export const POKEMON_NAMES = [{
     zh: "贪心栗鼠",
   },
   number: 819,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "schlaraffel",
@@ -7416,6 +8235,7 @@ export const POKEMON_NAMES = [{
     zh: "藏饱栗鼠",
   },
   number: 820,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "meikro",
@@ -7425,6 +8245,7 @@ export const POKEMON_NAMES = [{
     zh: "稚山雀",
   },
   number: 821,
+  pokemonTypes: ["flying", ""],
 },{
   names: {
     de: "kranoviz",
@@ -7434,6 +8255,7 @@ export const POKEMON_NAMES = [{
     zh: "蓝鸦",
   },
   number: 822,
+  pokemonTypes: ["flying", ""],
 },{
   names: {
     de: "krarmor",
@@ -7443,6 +8265,7 @@ export const POKEMON_NAMES = [{
     zh: "钢铠鸦",
   },
   number: 823,
+  pokemonTypes: ["flying", "steel"],
 },{
   names: {
     de: "sensect",
@@ -7452,6 +8275,7 @@ export const POKEMON_NAMES = [{
     zh: "索侦虫",
   },
   number: 824,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "keradar",
@@ -7461,6 +8285,7 @@ export const POKEMON_NAMES = [{
     zh: "天罩虫",
   },
   number: 825,
+  pokemonTypes: ["bug", "psychic"],
 },{
   names: {
     de: "maritellit",
@@ -7470,6 +8295,7 @@ export const POKEMON_NAMES = [{
     zh: "以欧路普",
   },
   number: 826,
+  pokemonTypes: ["bug", "psychic"],
 },{
   names: {
     de: "kleptifux",
@@ -7479,6 +8305,7 @@ export const POKEMON_NAMES = [{
     zh: "狡小狐",
   },
   number: 827,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "gaunux",
@@ -7488,6 +8315,7 @@ export const POKEMON_NAMES = [{
     zh: "猾大狐",
   },
   number: 828,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "cottini",
@@ -7497,6 +8325,7 @@ export const POKEMON_NAMES = [{
     zh: "幼棉棉",
   },
   number: 829,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "cottomi",
@@ -7506,6 +8335,7 @@ export const POKEMON_NAMES = [{
     zh: "白蓬蓬",
   },
   number: 830,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "wolly",
@@ -7515,6 +8345,7 @@ export const POKEMON_NAMES = [{
     zh: "毛辫羊",
   },
   number: 831,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "zwollock",
@@ -7524,6 +8355,7 @@ export const POKEMON_NAMES = [{
     zh: "毛毛角羊",
   },
   number: 832,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "kamehaps",
@@ -7533,6 +8365,7 @@ export const POKEMON_NAMES = [{
     zh: "咬咬龟",
   },
   number: 833,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "kamalm",
@@ -7542,6 +8375,7 @@ export const POKEMON_NAMES = [{
     zh: "暴噬龟",
   },
   number: 834,
+  pokemonTypes: ["water", "rock"],
 },{
   names: {
     de: "voldi",
@@ -7551,6 +8385,7 @@ export const POKEMON_NAMES = [{
     zh: "来电汪",
   },
   number: 835,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "bellektro",
@@ -7560,6 +8395,7 @@ export const POKEMON_NAMES = [{
     zh: "逐电犬",
   },
   number: 836,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "klonkett",
@@ -7569,6 +8405,7 @@ export const POKEMON_NAMES = [{
     zh: "小炭仔",
   },
   number: 837,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "wagong",
@@ -7578,6 +8415,7 @@ export const POKEMON_NAMES = [{
     zh: "大炭车",
   },
   number: 838,
+  pokemonTypes: ["rock", "fire"],
 },{
   names: {
     de: "montecarbo",
@@ -7587,6 +8425,7 @@ export const POKEMON_NAMES = [{
     zh: "巨炭山",
   },
   number: 839,
+  pokemonTypes: ["rock", "fire"],
 },{
   names: {
     de: "knapfel",
@@ -7596,6 +8435,7 @@ export const POKEMON_NAMES = [{
     zh: "啃果虫",
   },
   number: 840,
+  pokemonTypes: ["grass", "dragon"],
 },{
   names: {
     de: "drapfel",
@@ -7605,6 +8445,7 @@ export const POKEMON_NAMES = [{
     zh: "苹裹龙",
   },
   number: 841,
+  pokemonTypes: ["grass", "dragon"],
 },{
   names: {
     de: "schlapfel",
@@ -7614,6 +8455,7 @@ export const POKEMON_NAMES = [{
     zh: "丰蜜龙",
   },
   number: 842,
+  pokemonTypes: ["grass", "dragon"],
 },{
   names: {
     de: "salanga",
@@ -7623,6 +8465,7 @@ export const POKEMON_NAMES = [{
     zh: "沙包蛇",
   },
   number: 843,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "sanaconda",
@@ -7632,6 +8475,7 @@ export const POKEMON_NAMES = [{
     zh: "沙螺蟒",
   },
   number: 844,
+  pokemonTypes: ["ground", ""],
 },{
   names: {
     de: "urgl",
@@ -7641,6 +8485,7 @@ export const POKEMON_NAMES = [{
     zh: "古月鸟",
   },
   number: 845,
+  pokemonTypes: ["flying", "water"],
 },{
   names: {
     de: "pikuda",
@@ -7650,6 +8495,7 @@ export const POKEMON_NAMES = [{
     zh: "刺梭鱼",
   },
   number: 846,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "barrakiefa",
@@ -7659,6 +8505,7 @@ export const POKEMON_NAMES = [{
     zh: "戽斗尖梭",
   },
   number: 847,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "toxel",
@@ -7668,6 +8515,7 @@ export const POKEMON_NAMES = [{
     zh: "电音婴",
   },
   number: 848,
+  pokemonTypes: ["electric", "poison"],
 },{
   names: {
     de: "riffex",
@@ -7677,6 +8525,7 @@ export const POKEMON_NAMES = [{
     zh: "颤弦蝾螈",
   },
   number: 849,
+  pokemonTypes: ["electric", "poison"],
 },{
   names: {
     de: "thermopod",
@@ -7686,6 +8535,7 @@ export const POKEMON_NAMES = [{
     zh: "烧火蚣",
   },
   number: 850,
+  pokemonTypes: ["fire", "bug"],
 },{
   names: {
     de: "infernopod",
@@ -7695,6 +8545,7 @@ export const POKEMON_NAMES = [{
     zh: "焚焰蚣",
   },
   number: 851,
+  pokemonTypes: ["fire", "bug"],
 },{
   names: {
     de: "klopptopus",
@@ -7704,6 +8555,7 @@ export const POKEMON_NAMES = [{
     zh: "拳拳蛸",
   },
   number: 852,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "kaocto",
@@ -7713,6 +8565,7 @@ export const POKEMON_NAMES = [{
     zh: "八爪武师",
   },
   number: 853,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "fatalitee",
@@ -7722,6 +8575,7 @@ export const POKEMON_NAMES = [{
     zh: "来悲茶",
   },
   number: 854,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "mortipot",
@@ -7731,6 +8585,7 @@ export const POKEMON_NAMES = [{
     zh: "怖思壶",
   },
   number: 855,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "brimova",
@@ -7740,6 +8595,7 @@ export const POKEMON_NAMES = [{
     zh: "迷布莉姆",
   },
   number: 856,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "brimano",
@@ -7749,6 +8605,7 @@ export const POKEMON_NAMES = [{
     zh: "提布莉姆",
   },
   number: 857,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "silembrim",
@@ -7758,6 +8615,7 @@ export const POKEMON_NAMES = [{
     zh: "布莉姆温",
   },
   number: 858,
+  pokemonTypes: ["psychic", "fairy"],
 },{
   names: {
     de: "bähmon",
@@ -7767,6 +8625,7 @@ export const POKEMON_NAMES = [{
     zh: "捣蛋小妖",
   },
   number: 859,
+  pokemonTypes: ["dark", "fairy"],
 },{
   names: {
     de: "pelzebub",
@@ -7776,6 +8635,7 @@ export const POKEMON_NAMES = [{
     zh: "诈唬魔",
   },
   number: 860,
+  pokemonTypes: ["dark", "fairy"],
 },{
   names: {
     de: "olangaar",
@@ -7785,6 +8645,7 @@ export const POKEMON_NAMES = [{
     zh: "长毛巨魔",
   },
   number: 861,
+  pokemonTypes: ["dark", "fairy"],
 },{
   names: {
     de: "barrikadax",
@@ -7794,6 +8655,7 @@ export const POKEMON_NAMES = [{
     zh: "堵拦熊",
   },
   number: 862,
+  pokemonTypes: ["dark", "normal"],
 },{
   names: {
     de: "mauzinger",
@@ -7803,6 +8665,7 @@ export const POKEMON_NAMES = [{
     zh: "喵头目",
   },
   number: 863,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "gorgasonn",
@@ -7812,6 +8675,7 @@ export const POKEMON_NAMES = [{
     zh: "魔灵珊瑚",
   },
   number: 864,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "lauchzelot",
@@ -7821,6 +8685,7 @@ export const POKEMON_NAMES = [{
     zh: "葱游兵",
   },
   number: 865,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "pantifrost",
@@ -7830,6 +8695,7 @@ export const POKEMON_NAMES = [{
     zh: "踏冰人偶",
   },
   number: 866,
+  pokemonTypes: ["ice", "psychic"],
 },{
   names: {
     de: "oghnatoll",
@@ -7839,6 +8705,7 @@ export const POKEMON_NAMES = [{
     zh: "迭失板",
   },
   number: 867,
+  pokemonTypes: ["ground", "ghost"],
 },{
   names: {
     de: "hokumil",
@@ -7848,6 +8715,7 @@ export const POKEMON_NAMES = [{
     zh: "小仙奶",
   },
   number: 868,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "pokusan",
@@ -7857,6 +8725,7 @@ export const POKEMON_NAMES = [{
     zh: "霜奶仙",
   },
   number: 869,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "legios",
@@ -7866,6 +8735,7 @@ export const POKEMON_NAMES = [{
     zh: "列阵兵",
   },
   number: 870,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "britzigel",
@@ -7875,6 +8745,7 @@ export const POKEMON_NAMES = [{
     zh: "啪嚓海胆",
   },
   number: 871,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "snomnom",
@@ -7884,6 +8755,7 @@ export const POKEMON_NAMES = [{
     zh: "雪吞虫",
   },
   number: 872,
+  pokemonTypes: ["ice", "bug"],
 },{
   names: {
     de: "mottineva",
@@ -7893,6 +8765,7 @@ export const POKEMON_NAMES = [{
     zh: "雪绒蛾",
   },
   number: 873,
+  pokemonTypes: ["ice", "bug"],
 },{
   names: {
     de: "humanolith",
@@ -7902,6 +8775,7 @@ export const POKEMON_NAMES = [{
     zh: "巨石丁",
   },
   number: 874,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "kubuin",
@@ -7911,6 +8785,7 @@ export const POKEMON_NAMES = [{
     zh: "冰砌鹅",
   },
   number: 875,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "servol",
@@ -7920,6 +8795,7 @@ export const POKEMON_NAMES = [{
     zh: "爱管侍",
   },
   number: 876,
+  pokemonTypes: ["psychic", "normal"],
 },{
   names: {
     de: "morpeko",
@@ -7929,6 +8805,7 @@ export const POKEMON_NAMES = [{
     zh: "莫鲁贝可",
   },
   number: 877,
+  pokemonTypes: ["electric", "dark"],
 },{
   names: {
     de: "kupfanti",
@@ -7938,6 +8815,7 @@ export const POKEMON_NAMES = [{
     zh: "铜象",
   },
   number: 878,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "patinaraja",
@@ -7947,6 +8825,7 @@ export const POKEMON_NAMES = [{
     zh: "大王铜象",
   },
   number: 879,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "lectragon",
@@ -7956,6 +8835,7 @@ export const POKEMON_NAMES = [{
     zh: "雷鸟龙",
   },
   number: 880,
+  pokemonTypes: ["electric", "dragon"],
 },{
   names: {
     de: "lecryodon",
@@ -7965,6 +8845,7 @@ export const POKEMON_NAMES = [{
     zh: "雷鸟海兽",
   },
   number: 881,
+  pokemonTypes: ["electric", "ice"],
 },{
   names: {
     de: "pescragon",
@@ -7974,6 +8855,7 @@ export const POKEMON_NAMES = [{
     zh: "鳃鱼龙",
   },
   number: 882,
+  pokemonTypes: ["water", "dragon"],
 },{
   names: {
     de: "pescryodon",
@@ -7983,6 +8865,7 @@ export const POKEMON_NAMES = [{
     zh: "鳃鱼海兽",
   },
   number: 883,
+  pokemonTypes: ["water", "ice"],
 },{
   names: {
     de: "duraludon",
@@ -7992,6 +8875,7 @@ export const POKEMON_NAMES = [{
     zh: "铝钢龙",
   },
   number: 884,
+  pokemonTypes: ["steel", "dragon"],
 },{
   names: {
     de: "grolldra",
@@ -8001,6 +8885,7 @@ export const POKEMON_NAMES = [{
     zh: "多龙梅西亚",
   },
   number: 885,
+  pokemonTypes: ["dragon", "ghost"],
 },{
   names: {
     de: "phandra",
@@ -8010,6 +8895,7 @@ export const POKEMON_NAMES = [{
     zh: "多龙奇",
   },
   number: 886,
+  pokemonTypes: ["dragon", "ghost"],
 },{
   names: {
     de: "katapuldra",
@@ -8019,6 +8905,7 @@ export const POKEMON_NAMES = [{
     zh: "多龙巴鲁托",
   },
   number: 887,
+  pokemonTypes: ["dragon", "ghost"],
 },{
   names: {
     de: "zacian",
@@ -8028,6 +8915,7 @@ export const POKEMON_NAMES = [{
     zh: "苍响",
   },
   number: 888,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "zamazenta",
@@ -8037,6 +8925,7 @@ export const POKEMON_NAMES = [{
     zh: "藏玛然特",
   },
   number: 889,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "endynalos",
@@ -8046,6 +8935,7 @@ export const POKEMON_NAMES = [{
     zh: "无极汰那",
   },
   number: 890,
+  pokemonTypes: ["poison", "dragon"],
 },{
   names: {
     de: "dakuma",
@@ -8055,6 +8945,7 @@ export const POKEMON_NAMES = [{
     zh: "熊徒弟",
   },
   number: 891,
+  pokemonTypes: ["fighting", ""],
 },{
   names: {
     de: "wulaosu",
@@ -8064,6 +8955,7 @@ export const POKEMON_NAMES = [{
     zh: "武道熊师",
   },
   number: 892,
+  pokemonTypes: ["fighting", "dark"],
 },{
   names: {
     de: "zarude",
@@ -8073,6 +8965,7 @@ export const POKEMON_NAMES = [{
     zh: "萨戮德",
   },
   number: 893,
+  pokemonTypes: ["dark", "grass"],
 },{
   names: {
     de: "regieleki",
@@ -8082,6 +8975,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉艾勒奇",
   },
   number: 894,
+    pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "regidrago",
@@ -8091,6 +8985,7 @@ export const POKEMON_NAMES = [{
     zh: "雷吉铎拉戈",
   },
   number: 895,
+  pokemonTypes: ["dragon", ""],
 },{
   names: {
     de: "polaross",
@@ -8100,6 +8995,7 @@ export const POKEMON_NAMES = [{
     zh: "雪暴马",
   },
   number: 896,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "phantoross",
@@ -8109,6 +9005,7 @@ export const POKEMON_NAMES = [{
     zh: "灵幽马",
   },
   number: 897,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "coronospa",
@@ -8118,6 +9015,7 @@ export const POKEMON_NAMES = [{
     zh: "蕾冠王",
   },
   number: 898,
+  pokemonTypes: ["psychic", "grass"],
 },{
   names: {
     de: "damythir",
@@ -8127,6 +9025,7 @@ export const POKEMON_NAMES = [{
     zh: "诡角鹿",
   },
   number: 899,
+  pokemonTypes: ["normal", "psychic"],
 },{
   names: {
     de: "axantor",
@@ -8136,6 +9035,7 @@ export const POKEMON_NAMES = [{
     zh: "劈斧螳螂",
   },
   number: 900,
+  pokemonTypes: ["bug", "rock"],
 },{
   names: {
     de: "ursaluna",
@@ -8145,6 +9045,7 @@ export const POKEMON_NAMES = [{
     zh: "月月熊",
   },
   number: 901,
+  pokemonTypes: ["ground", "normal"],
 },{
   names: {
     de: "salmagnis",
@@ -8154,6 +9055,7 @@ export const POKEMON_NAMES = [{
     zh: "幽尾玄鱼",
   },
   number: 902,
+  pokemonTypes: ["water", "ghost"],
 },{
   names: {
     de: "snieboss",
@@ -8163,6 +9065,7 @@ export const POKEMON_NAMES = [{
     zh: "大狃拉",
   },
   number: 903,
+  pokemonTypes: ["fighting", "poison"],
 },{
   names: {
     de: "myriador",
@@ -8172,6 +9075,7 @@ export const POKEMON_NAMES = [{
     zh: "万针鱼",
   },
   number: 904,
+  pokemonTypes: ["dark", "poison"],
 },{
   names: {
     de: "cupidos",
@@ -8181,6 +9085,7 @@ export const POKEMON_NAMES = [{
     zh: "眷恋云",
   },
   number: 905,
+  pokemonTypes: ["flying", "fairy"],
 },{
   names: {
     de: "felori",
@@ -8190,6 +9095,7 @@ export const POKEMON_NAMES = [{
     zh: "新叶喵",
   },
   number: 906,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "feliospa",
@@ -8199,6 +9105,7 @@ export const POKEMON_NAMES = [{
     zh: "蒂蕾喵",
   },
   number: 907,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "maskagato",
@@ -8208,6 +9115,7 @@ export const POKEMON_NAMES = [{
     zh: "魔幻假面喵",
   },
   number: 908,
+  pokemonTypes: ["grass", "ghost"],
 },{
   names: {
     de: "krokel",
@@ -8217,6 +9125,7 @@ export const POKEMON_NAMES = [{
     zh: "呆火鳄",
   },
   number: 909,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "lokroko",
@@ -8226,6 +9135,7 @@ export const POKEMON_NAMES = [{
     zh: "炙烫鳄",
   },
   number: 910,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "skelokrok",
@@ -8235,6 +9145,7 @@ export const POKEMON_NAMES = [{
     zh: "骨纹巨声鳄",
   },
   number: 911,
+  pokemonTypes: ["fire", "ghost"],
 },{
   names: {
     de: "kwaks",
@@ -8244,6 +9155,7 @@ export const POKEMON_NAMES = [{
     zh: "润水鸭",
   },
   number: 912,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "fuentente",
@@ -8253,6 +9165,7 @@ export const POKEMON_NAMES = [{
     zh: "涌跃鸭",
   },
   number: 913,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "bailonda",
@@ -8262,6 +9175,7 @@ export const POKEMON_NAMES = [{
     zh: "狂欢浪舞鸭",
   },
   number: 914,
+  pokemonTypes: ["water", "fighting"],
 },{
   names: {
     de: "ferkuli",
@@ -8271,6 +9185,7 @@ export const POKEMON_NAMES = [{
     zh: "爱吃豚",
   },
   number: 915,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "fragrunz",
@@ -8280,6 +9195,7 @@ export const POKEMON_NAMES = [{
     zh: "飘香豚",
   },
   number: 916,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "tarundel",
@@ -8289,6 +9205,7 @@ export const POKEMON_NAMES = [{
     zh: "团珠蛛",
   },
   number: 917,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "spinsidias",
@@ -8298,6 +9215,7 @@ export const POKEMON_NAMES = [{
     zh: "操陷蛛",
   },
   number: 918,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "micrick",
@@ -8307,6 +9225,7 @@ export const POKEMON_NAMES = [{
     zh: "豆蟋蟀",
   },
   number: 919,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "lextremo",
@@ -8316,6 +9235,7 @@ export const POKEMON_NAMES = [{
     zh: "烈腿蝗",
   },
   number: 920,
+  pokemonTypes: ["bug", "dark"],
 },{
   names: {
     de: "pamo",
@@ -8325,6 +9245,7 @@ export const POKEMON_NAMES = [{
     zh: "布拨",
   },
   number: 921,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "pamamo",
@@ -8334,6 +9255,7 @@ export const POKEMON_NAMES = [{
     zh: "布土拨",
   },
   number: 922,
+  pokemonTypes: ["electric", "fighting"],
 },{
   names: {
     de: "pamomamo",
@@ -8343,6 +9265,7 @@ export const POKEMON_NAMES = [{
     zh: "巴布土拨",
   },
   number: 923,
+  pokemonTypes: ["electric", "fighting"],
 },{
   names: {
     de: "zwieps",
@@ -8352,6 +9275,7 @@ export const POKEMON_NAMES = [{
     zh: "一对鼠",
   },
   number: 924,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "famieps",
@@ -8361,6 +9285,7 @@ export const POKEMON_NAMES = [{
     zh: "一家鼠",
   },
   number: 925,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "hefel",
@@ -8370,6 +9295,7 @@ export const POKEMON_NAMES = [{
     zh: "狗仔包",
   },
   number: 926,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "backel",
@@ -8379,6 +9305,7 @@ export const POKEMON_NAMES = [{
     zh: "麻花犬",
   },
   number: 927,
+  pokemonTypes: ["fairy", ""],
 },{
   names: {
     de: "olini",
@@ -8388,6 +9315,7 @@ export const POKEMON_NAMES = [{
     zh: "迷你芙",
   },
   number: 928,
+  pokemonTypes: ["grass", "normal"],
 },{
   names: {
     de: "olivinio",
@@ -8397,6 +9325,7 @@ export const POKEMON_NAMES = [{
     zh: "奥利纽",
   },
   number: 929,
+  pokemonTypes: ["grass", "normal"],
 },{
   names: {
     de: "olithena",
@@ -8406,6 +9335,7 @@ export const POKEMON_NAMES = [{
     zh: "奥利瓦",
   },
   number: 930,
+  pokemonTypes: ["grass", "normal"],
 },{
   names: {
     de: "krawalloro",
@@ -8415,6 +9345,7 @@ export const POKEMON_NAMES = [{
     zh: "怒鹦哥",
   },
   number: 931,
+  pokemonTypes: ["normal", "flying"],
 },{
   names: {
     de: "geosali",
@@ -8424,6 +9355,7 @@ export const POKEMON_NAMES = [{
     zh: "盐石宝",
   },
   number: 932,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "sedisal",
@@ -8433,6 +9365,7 @@ export const POKEMON_NAMES = [{
     zh: "盐石垒",
   },
   number: 933,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "saltigant",
@@ -8442,6 +9375,7 @@ export const POKEMON_NAMES = [{
     zh: "盐石巨灵",
   },
   number: 934,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "knarbon",
@@ -8451,6 +9385,7 @@ export const POKEMON_NAMES = [{
     zh: "炭小侍",
   },
   number: 935,
+  pokemonTypes: ["fire", ""],
 },{
   names: {
     de: "crimanzo",
@@ -8460,6 +9395,7 @@ export const POKEMON_NAMES = [{
     zh: "红莲铠骑",
   },
   number: 936,
+  pokemonTypes: ["fire", "psychic"],
 },{
   names: {
     de: "azugladis",
@@ -8469,6 +9405,7 @@ export const POKEMON_NAMES = [{
     zh: "苍炎刃鬼",
   },
   number: 937,
+  pokemonTypes: ["fire", "ghost"],
 },{
   names: {
     de: "blipp",
@@ -8478,6 +9415,7 @@ export const POKEMON_NAMES = [{
     zh: "光蚪仔",
   },
   number: 938,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "wampitz",
@@ -8487,6 +9425,7 @@ export const POKEMON_NAMES = [{
     zh: "电肚蛙",
   },
   number: 939,
+  pokemonTypes: ["electric", ""],
 },{
   names: {
     de: "voltrel",
@@ -8496,6 +9435,7 @@ export const POKEMON_NAMES = [{
     zh: "电海燕",
   },
   number: 940,
+  pokemonTypes: ["electric", "flying"],
 },{
   names: {
     de: "voltrean",
@@ -8505,6 +9445,7 @@ export const POKEMON_NAMES = [{
     zh: "大电海燕",
   },
   number: 941,
+  pokemonTypes: ["electric", "flying"],
 },{
   names: {
     de: "mobtiff",
@@ -8514,6 +9455,7 @@ export const POKEMON_NAMES = [{
     zh: "偶叫獒",
   },
   number: 942,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "mastifioso",
@@ -8523,6 +9465,7 @@ export const POKEMON_NAMES = [{
     zh: "獒教父",
   },
   number: 943,
+  pokemonTypes: ["dark", ""],
 },{
   names: {
     de: "sproxi",
@@ -8532,6 +9475,7 @@ export const POKEMON_NAMES = [{
     zh: "滋汁鼹",
   },
   number: 944,
+  pokemonTypes: ["poison", "normal"],
 },{
   names: {
     de: "affiti",
@@ -8541,6 +9485,7 @@ export const POKEMON_NAMES = [{
     zh: "涂标客",
   },
   number: 945,
+  pokemonTypes: ["poison", "normal"],
 },{
   names: {
     de: "weherba",
@@ -8550,6 +9495,7 @@ export const POKEMON_NAMES = [{
     zh: "纳噬草",
   },
   number: 946,
+  pokemonTypes: ["grass", "ghost"],
 },{
   names: {
     de: "horrerba",
@@ -8559,6 +9505,7 @@ export const POKEMON_NAMES = [{
     zh: "怖纳噬草",
   },
   number: 947,
+  pokemonTypes: ["grass", "ghost"],
 },{
   names: {
     de: "tentagra",
@@ -8568,6 +9515,7 @@ export const POKEMON_NAMES = [{
     zh: "原野水母",
   },
   number: 948,
+  pokemonTypes: ["ground", "grass"],
 },{
   names: {
     de: "tenterra",
@@ -8577,6 +9525,7 @@ export const POKEMON_NAMES = [{
     zh: "陆地水母",
   },
   number: 949,
+  pokemonTypes: ["ground", "grass"],
 },{
   names: {
     de: "klibbe",
@@ -8586,6 +9535,7 @@ export const POKEMON_NAMES = [{
     zh: "毛崖蟹",
   },
   number: 950,
+  pokemonTypes: ["rock", ""],
 },{
   names: {
     de: "chilingel",
@@ -8595,6 +9545,7 @@ export const POKEMON_NAMES = [{
     zh: "热辣娃",
   },
   number: 951,
+  pokemonTypes: ["grass", ""],
 },{
   names: {
     de: "halupenjo",
@@ -8604,6 +9555,7 @@ export const POKEMON_NAMES = [{
     zh: "狠辣椒",
   },
   number: 952,
+  pokemonTypes: ["grass", "fire"],
 },{
   names: {
     de: "relluk",
@@ -8613,6 +9565,7 @@ export const POKEMON_NAMES = [{
     zh: "虫滚泥",
   },
   number: 953,
+  pokemonTypes: ["bug", ""],
 },{
   names: {
     de: "skarabaks",
@@ -8622,6 +9575,7 @@ export const POKEMON_NAMES = [{
     zh: "虫甲圣",
   },
   number: 954,
+  pokemonTypes: ["bug", "psychic"],
 },{
   names: {
     de: "flattutu",
@@ -8631,6 +9585,7 @@ export const POKEMON_NAMES = [{
     zh: "飘飘雏",
   },
   number: 955,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "psiopatra",
@@ -8640,6 +9595,7 @@ export const POKEMON_NAMES = [{
     zh: "超能艳鸵",
   },
   number: 956,
+  pokemonTypes: ["psychic", ""],
 },{
   names: {
     de: "forgita",
@@ -8649,6 +9605,7 @@ export const POKEMON_NAMES = [{
     zh: "小锻匠",
   },
   number: 957,
+  pokemonTypes: ["fairy", "steel"],
 },{
   names: {
     de: "tafforgita",
@@ -8658,6 +9615,7 @@ export const POKEMON_NAMES = [{
     zh: "巧锻匠",
   },
   number: 958,
+  pokemonTypes: ["fairy", "steel"],
 },{
   names: {
     de: "granforgita",
@@ -8667,6 +9625,7 @@ export const POKEMON_NAMES = [{
     zh: "巨锻匠",
   },
   number: 959,
+  pokemonTypes: ["fairy", "steel"],
 },{
   names: {
     de: "schligda",
@@ -8676,6 +9635,7 @@ export const POKEMON_NAMES = [{
     zh: "海地鼠",
   },
   number: 960,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "schligdri",
@@ -8685,6 +9645,7 @@ export const POKEMON_NAMES = [{
     zh: "三海地鼠",
   },
   number: 961,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "adebom",
@@ -8694,6 +9655,7 @@ export const POKEMON_NAMES = [{
     zh: "下石鸟",
   },
   number: 962,
+  pokemonTypes: ["flying", "dark"],
 },{
   names: {
     de: "normifin",
@@ -8703,6 +9665,7 @@ export const POKEMON_NAMES = [{
     zh: "波普海豚",
   },
   number: 963,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "delfinator",
@@ -8712,6 +9675,7 @@ export const POKEMON_NAMES = [{
     zh: "海豚侠",
   },
   number: 964,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "knattox",
@@ -8721,6 +9685,7 @@ export const POKEMON_NAMES = [{
     zh: "噗隆隆",
   },
   number: 965,
+  pokemonTypes: ["steel", "poison"],
 },{
   names: {
     de: "knattatox",
@@ -8730,6 +9695,7 @@ export const POKEMON_NAMES = [{
     zh: "普隆隆姆",
   },
   number: 966,
+  pokemonTypes: ["steel", "poison"],
 },{
   names: {
     de: "mopex",
@@ -8739,6 +9705,7 @@ export const POKEMON_NAMES = [{
     zh: "摩托蜥",
   },
   number: 967,
+  pokemonTypes: ["dragon", "normal"],
 },{
   names: {
     de: "schlurm",
@@ -8748,6 +9715,7 @@ export const POKEMON_NAMES = [{
     zh: "拖拖蚓",
   },
   number: 968,
+  pokemonTypes: ["steel", ""],
 },{
   names: {
     de: "lumispross",
@@ -8757,6 +9725,7 @@ export const POKEMON_NAMES = [{
     zh: "晶光芽",
   },
   number: 969,
+  pokemonTypes: ["rock", "poison"],
 },{
   names: {
     de: "lumiflora",
@@ -8766,6 +9735,7 @@ export const POKEMON_NAMES = [{
     zh: "晶光花",
   },
   number: 970,
+  pokemonTypes: ["rock", "poison"],
 },{
   names: {
     de: "gruff",
@@ -8775,6 +9745,7 @@ export const POKEMON_NAMES = [{
     zh: "墓仔狗",
   },
   number: 971,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "friedwuff",
@@ -8784,6 +9755,7 @@ export const POKEMON_NAMES = [{
     zh: "墓扬犬",
   },
   number: 972,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "flaminkno",
@@ -8793,6 +9765,7 @@ export const POKEMON_NAMES = [{
     zh: "缠红鹤",
   },
   number: 973,
+  pokemonTypes: ["flying", "fighting"],
 },{
   names: {
     de: "flaniwal",
@@ -8802,6 +9775,7 @@ export const POKEMON_NAMES = [{
     zh: "走鲸",
   },
   number: 974,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "kolowal",
@@ -8811,6 +9785,7 @@ export const POKEMON_NAMES = [{
     zh: "浩大鲸",
   },
   number: 975,
+  pokemonTypes: ["ice", ""],
 },{
   names: {
     de: "agiluza",
@@ -8820,6 +9795,7 @@ export const POKEMON_NAMES = [{
     zh: "轻身鳕",
   },
   number: 976,
+  pokemonTypes: ["water", "psychic"],
 },{
   names: {
     de: "heerashai",
@@ -8829,6 +9805,7 @@ export const POKEMON_NAMES = [{
     zh: "吃吼霸",
   },
   number: 977,
+  pokemonTypes: ["water", ""],
 },{
   names: {
     de: "nigiragi",
@@ -8838,6 +9815,7 @@ export const POKEMON_NAMES = [{
     zh: "米立龙",
   },
   number: 978,
+  pokemonTypes: ["dragon", "water"],
 },{
   names: {
     de: "epitaff",
@@ -8847,6 +9825,7 @@ export const POKEMON_NAMES = [{
     zh: "弃世猴",
   },
   number: 979,
+  pokemonTypes: ["fighting", "ghost"],
 },{
   names: {
     de: "suelord",
@@ -8856,6 +9835,7 @@ export const POKEMON_NAMES = [{
     zh: "土王",
   },
   number: 980,
+  pokemonTypes: ["poison", "ground"],
 },{
   names: {
     de: "farigiraf",
@@ -8865,6 +9845,7 @@ export const POKEMON_NAMES = [{
     zh: "奇麒麟",
   },
   number: 981,
+  pokemonTypes: ["normal", "psychic"],
 },{
   names: {
     de: "dummimisel",
@@ -8874,6 +9855,7 @@ export const POKEMON_NAMES = [{
     zh: "土龙节节",
   },
   number: 982,
+  pokemonTypes: ["normal", ""],
 },{
   names: {
     de: "gladimperio",
@@ -8883,6 +9865,7 @@ export const POKEMON_NAMES = [{
     zh: "仆刀将军",
   },
   number: 983,
+  pokemonTypes: ["dark", "steel"],
 },{
   names: {
     de: "riesenzahn",
@@ -8892,6 +9875,7 @@ export const POKEMON_NAMES = [{
     zh: "雄伟牙",
   },
   number: 984,
+  pokemonTypes: ["ground", "fighting"],
 },{
   names: {
     de: "brüllschweif",
@@ -8901,6 +9885,7 @@ export const POKEMON_NAMES = [{
     zh: "吼叫尾",
   },
   number: 985,
+  pokemonTypes: ["fairy", "psychic"],
 },{
   names: {
     de: "wutpilz",
@@ -8910,6 +9895,7 @@ export const POKEMON_NAMES = [{
     zh: "猛恶菇",
   },
   number: 986,
+  pokemonTypes: ["grass", "dark"],
 },{
   names: {
     de: "flatterhaar",
@@ -8919,6 +9905,7 @@ export const POKEMON_NAMES = [{
     zh: "振翼发",
   },
   number: 987,
+  pokemonTypes: ["ghost", "fairy"],
 },{
   names: {
     de: "kriechflügel",
@@ -8928,6 +9915,7 @@ export const POKEMON_NAMES = [{
     zh: "爬地翅",
   },
   number: 988,
+  pokemonTypes: ["bug", "fighting"],
 },{
   names: {
     de: "sandfell",
@@ -8937,6 +9925,7 @@ export const POKEMON_NAMES = [{
     zh: "沙铁皮",
   },
   number: 989,
+  pokemonTypes: ["electric", "ground"],
 },{
   names: {
     de: "eisenrad",
@@ -8946,6 +9935,7 @@ export const POKEMON_NAMES = [{
     zh: "铁辙迹",
   },
   number: 990,
+  pokemonTypes: ["steel", "ground"],
 },{
   names: {
     de: "eisenbündel",
@@ -8955,6 +9945,7 @@ export const POKEMON_NAMES = [{
     zh: "铁包袱",
   },
   number: 991,
+  pokemonTypes: ["ice", "water"],
 },{
   names: {
     de: "eisenhand",
@@ -8964,6 +9955,7 @@ export const POKEMON_NAMES = [{
     zh: "铁臂膀",
   },
   number: 992,
+  pokemonTypes: ["fighting", "electric"],
 },{
   names: {
     de: "eisenhals",
@@ -8973,6 +9965,7 @@ export const POKEMON_NAMES = [{
     zh: "铁脖颈",
   },
   number: 993,
+  pokemonTypes: ["dark", "flying"],
 },{
   names: {
     de: "eisenfalter",
@@ -8982,6 +9975,7 @@ export const POKEMON_NAMES = [{
     zh: "铁毒蛾",
   },
   number: 994,
+  pokemonTypes: ["fire", "poison"],
 },{
   names: {
     de: "eisendorn",
@@ -8991,6 +9985,7 @@ export const POKEMON_NAMES = [{
     zh: "铁荆棘",
   },
   number: 995,
+  pokemonTypes: ["rock", "electric"],
 },{
   names: {
     de: "frospino",
@@ -9000,6 +9995,7 @@ export const POKEMON_NAMES = [{
     zh: "凉脊龙",
   },
   number: 996,
+  pokemonTypes: ["dragon", "ice"],
 },{
   names: {
     de: "cryospino",
@@ -9009,6 +10005,7 @@ export const POKEMON_NAMES = [{
     zh: "冻脊龙",
   },
   number: 997,
+  pokemonTypes: ["dragon", "ice"],
 },{
   names: {
     de: "espinodon",
@@ -9018,6 +10015,7 @@ export const POKEMON_NAMES = [{
     zh: "戟脊龙",
   },
   number: 998,
+  pokemonTypes: ["dragon", "ice"],
 },{
   names: {
     de: "gierspenst",
@@ -9027,6 +10025,7 @@ export const POKEMON_NAMES = [{
     zh: "索财灵",
   },
   number: 999,
+  pokemonTypes: ["ghost", ""],
 },{
   names: {
     de: "monetigo",
@@ -9036,6 +10035,7 @@ export const POKEMON_NAMES = [{
     zh: "赛富豪",
   },
   number: 1000,
+  pokemonTypes: ["steel", "ghost"],
 },{
   names: {
     de: "chongjian",
@@ -9045,6 +10045,7 @@ export const POKEMON_NAMES = [{
     zh: "古简蜗",
   },
   number: 1001,
+  pokemonTypes: ["dark", "grass"],
 },{
   names: {
     de: "baojian",
@@ -9054,6 +10055,7 @@ export const POKEMON_NAMES = [{
     zh: "古剑豹",
   },
   number: 1002,
+  pokemonTypes: ["dark", "ice"],
 },{
   names: {
     de: "dinglu",
@@ -9063,6 +10065,7 @@ export const POKEMON_NAMES = [{
     zh: "古鼎鹿",
   },
   number: 1003,
+  pokemonTypes: ["dark", "ground"],
 },{
   names: {
     de: "yuyu",
@@ -9072,6 +10075,7 @@ export const POKEMON_NAMES = [{
     zh: "古玉鱼",
   },
   number: 1004,
+  pokemonTypes: ["dark", "fire"],
 },{
   names: {
     de: "donnersichel",
@@ -9081,6 +10085,7 @@ export const POKEMON_NAMES = [{
     zh: "轰鸣月",
   },
   number: 1005,
+  pokemonTypes: ["dragon", "dark"],
 },{
   names: {
     de: "eisenkrieger",
@@ -9090,6 +10095,7 @@ export const POKEMON_NAMES = [{
     zh: "铁武者",
   },
   number: 1006,
+  pokemonTypes: ["fairy", "fighting"],
 },{
   names: {
     de: "koraidon",
@@ -9099,6 +10105,7 @@ export const POKEMON_NAMES = [{
     zh: "故勒顿",
   },
   number: 1007,
+  pokemonTypes: ["fighting", "dragon"],
 },{
   names: {
     de: "miraidon",
@@ -9108,6 +10115,7 @@ export const POKEMON_NAMES = [{
     zh: "密勒顿",
   },
   number: 1008,
+  pokemonTypes: ["electric", "dragon"],
 },{
   names: {
     de: "windewoge",
@@ -9117,6 +10125,7 @@ export const POKEMON_NAMES = [{
     zh: "波荡水",
   },
   number: 1009,
+  pokemonTypes: ["water", "dragon"],
 },{
   names: {
     de: "eisenblatt",
@@ -9126,6 +10135,7 @@ export const POKEMON_NAMES = [{
     zh: "铁斑叶",
   },
   number: 1010,
+  pokemonTypes: ["grass", "psychic"],
 },{
   names: {
     de: "sirapfel",
@@ -9135,6 +10145,7 @@ export const POKEMON_NAMES = [{
     zh: "裹蜜虫",
   },
   number: 1011,
+  pokemonTypes: ["grass", "dragon"],
 },{
   names: {
     de: "mortcha",
@@ -9144,6 +10155,8 @@ export const POKEMON_NAMES = [{
     zh: "斯魔茶",
   },
   number: 1012,
+  pokemonTypes: ["grass", "ghost"],
+
 },{
   names: {
     de: "fatalitcha",
@@ -9153,6 +10166,7 @@ export const POKEMON_NAMES = [{
     zh: "来悲粗茶",
   },
   number: 1013,
+  pokemonTypes: ["grass", "ghost"],
 },{
   names: {
     de: "boninu",
@@ -9162,6 +10176,7 @@ export const POKEMON_NAMES = [{
     zh: "够赞狗",
   },
   number: 1014,
+  pokemonTypes: ["poison", "fighting"],
 },{
   names: {
     de: "benesaru",
@@ -9171,6 +10186,7 @@ export const POKEMON_NAMES = [{
     zh: "愿增猿",
   },
   number: 1015,
+  pokemonTypes: ["poison", "psychic"],
 },{
   names: {
     de: "beatori",
@@ -9180,6 +10196,7 @@ export const POKEMON_NAMES = [{
     zh: "吉雉鸡",
   },
   number: 1016,
+  pokemonTypes: ["poison", "fairy"],
 },{
   names: {
     de: "ogerpon",
@@ -9189,8 +10206,10 @@ export const POKEMON_NAMES = [{
     zh: "厄诡椪",
   },
   number: 1017,
+  pokemonTypes: ["grass", ""],
+
 }] as const;
 
 export type PokemonNumber = typeof POKEMON_NAMES[number]['number'];
-
 export type NamesForPokemon = typeof POKEMON_NAMES[number]['names'];
+export type PokemonTypes = typeof POKEMON_NAMES[number]['pokemonTypes'];
